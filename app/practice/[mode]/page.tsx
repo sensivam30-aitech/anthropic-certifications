@@ -115,11 +115,3 @@ export default function TestModePage() {
   );
 }
 
-export function generateStaticParams() {
-  return [
-    { mode: 'sprint' },
-    { mode: 'focused' },
-    { mode: 'deep_practice' },
-    { mode: 'full_exam' },
-  ];
-}
