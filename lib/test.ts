@@ -6,11 +6,11 @@ import { calculateFinalResult } from './scoring';
 import { getItem, setItem } from './storage';
 import { generateUUID } from './utils';
 
-// Dynamic imports for question sets
 async function loadQuestionSet(mode: string, setNumber: number): Promise<any[]> {
   try {
-    const mod = await import(`./data/questions/${mode}/set_${setNumber.toString().padStart(2, '0')}.json`);
-    return mod.default || mod;
+    const res = await fetch(`/data/questions/${mode}/set_${setNumber.toString().padStart(2, '0')}.json`);
+    if (!res.ok) return [];
+    return await res.json();
   } catch {
     return [];
   }
@@ -41,6 +41,10 @@ export async function startTest(mode: TestMode): Promise<{ sessionId: string; mo
   const userId = user?.id || 'anonymous_' + generateUUID();
   const selection = getNextSetForUser(userId, mode);
   const questions = await loadQuestionSet(mode, selection.setNumber);
+
+  if (!questions || questions.length === 0) {
+    throw new Error('Failed to load questions for this set');
+  }
 
   const shuffledQuestions = fisherYatesShuffle(questions);
   const sessionSeed = Date.now();
@@ -76,7 +80,7 @@ export async function startTest(mode: TestMode): Promise<{ sessionId: string; mo
     mode,
     setNumber: selection.setNumber,
     totalQuestions: sessionQuestions.length,
-    timeLimitMinutes: session.expiresAt - session.startedAt,
+    timeLimitMinutes: Math.floor((session.expiresAt - session.startedAt) / 60000),
     questions: sessionQuestions.map(q => ({
       id: q.id,
       displayNumber: q.displayNumber,
@@ -134,7 +138,6 @@ export function finalizeTest(sessionId: string): FinalResult {
     completedAt: Date.now(),
   });
 
-  // Update question stats
   const stats = getItem<any[]>('question_stats') || [];
   for (const q of session.questions) {
     const existing = stats.find(s => s.userId === session.userId && s.questionId === q.id);

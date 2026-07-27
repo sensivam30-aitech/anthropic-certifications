@@ -1,0 +1,362 @@
+[
+  {
+    "id": "focused_s01_q01",
+    "mode": "focused",
+    "set_number": 1,
+    "question_number": 1,
+    "domain": "agentic",
+    "domainName": "Agentic Architecture & Orchestration",
+    "difficulty": "medium",
+    "question": "Swiggy's logistics team uses agentic AI to optimize delivery routes across 500+ cities in real-time. What is the recommended approach?",
+    "options": {
+      "A": "Allow agents to modify each other's state directly",
+      "B": "Implement message passing with defined schemas and idempotent operations",
+      "C": "Use global variables for inter-agent communication",
+      "D": "Avoid any form of inter-agent communication"
+    },
+    "correctAnswer": "B",
+    "explanation": "Multi-agent systems require orchestration, shared state management, and defined communication patterns. Option B provides the production-ready approach with proper coordination."
+  },
+  {
+    "id": "focused_s01_q02",
+    "mode": "focused",
+    "set_number": 1,
+    "question_number": 2,
+    "domain": "agentic",
+    "domainName": "Agentic Architecture & Orchestration",
+    "difficulty": "hard",
+    "question": "Razorpay's risk engine deploys autonomous agents to detect payment fraud patterns across UPI transactions. What is the recommended approach?",
+    "options": {
+      "A": "Use a single monolithic agent with all capabilities",
+      "B": "Deploy specialized agents with a supervisor orchestrator and shared state",
+      "C": "Run agents independently without coordination",
+      "D": "Use hardcoded decision trees instead of agents"
+    },
+    "correctAnswer": "B",
+    "explanation": "Multi-agent systems require orchestration, shared state management, and defined communication patterns. Option B provides the production-ready approach with proper coordination."
+  },
+  {
+    "id": "focused_s01_q03",
+    "mode": "focused",
+    "set_number": 1,
+    "question_number": 3,
+    "domain": "agentic",
+    "domainName": "Agentic Architecture & Orchestration",
+    "difficulty": "easy",
+    "question": "Air India's customer support uses a hierarchy of agents for flight rebooking during weather disruptions. What is the recommended approach?",
+    "options": {
+      "A": "Allow agents to modify each other's state directly",
+      "B": "Implement message passing with defined schemas and idempotent operations",
+      "C": "Use global variables for inter-agent communication",
+      "D": "Avoid any form of inter-agent communication"
+    },
+    "correctAnswer": "B",
+    "explanation": "Multi-agent systems require orchestration, shared state management, and defined communication patterns. Option B provides the production-ready approach with proper coordination."
+  },
+  {
+    "id": "focused_s01_q04",
+    "mode": "focused",
+    "set_number": 1,
+    "question_number": 4,
+    "domain": "agentic",
+    "domainName": "Agentic Architecture & Orchestration",
+    "difficulty": "medium",
+    "question": "HCLTech is implementing an agentic architecture for automated code review across 50+ client projects. What is the recommended approach?",
+    "options": {
+      "A": "Use a single monolithic agent with all capabilities",
+      "B": "Deploy specialized agents with a supervisor orchestrator and shared state",
+      "C": "Run agents independently without coordination",
+      "D": "Use hardcoded decision trees instead of agents"
+    },
+    "correctAnswer": "B",
+    "explanation": "Multi-agent systems require orchestration, shared state management, and defined communication patterns. Option B provides the production-ready approach with proper coordination."
+  },
+  {
+    "id": "focused_s01_q05",
+    "mode": "focused",
+    "set_number": 1,
+    "question_number": 5,
+    "domain": "agentic",
+    "domainName": "Agentic Architecture & Orchestration",
+    "difficulty": "hard",
+    "question": "Digital Green's agriculture AI uses coordinated agents to provide farming advice in 12 Indian languages. What is the recommended approach?",
+    "options": {
+      "A": "Allow agents to modify each other's state directly",
+      "B": "Implement message passing with defined schemas and idempotent operations",
+      "C": "Use global variables for inter-agent communication",
+      "D": "Avoid any form of inter-agent communication"
+    },
+    "correctAnswer": "B",
+    "explanation": "Multi-agent systems require orchestration, shared state management, and defined communication patterns. Option B provides the production-ready approach with proper coordination."
+  },
+  {
+    "id": "focused_s01_q06",
+    "mode": "focused",
+    "set_number": 1,
+    "question_number": 6,
+    "domain": "agentic",
+    "domainName": "Agentic Architecture & Orchestration",
+    "difficulty": "easy",
+    "question": "Ola's safety team deploys agentic systems to monitor ride patterns and detect anomalies. What is the recommended approach?",
+    "options": {
+      "A": "Use a single monolithic agent with all capabilities",
+      "B": "Deploy specialized agents with a supervisor orchestrator and shared state",
+      "C": "Run agents independently without coordination",
+      "D": "Use hardcoded decision trees instead of agents"
+    },
+    "correctAnswer": "B",
+    "explanation": "Multi-agent systems require orchestration, shared state management, and defined communication patterns. Option B provides the production-ready approach with proper coordination."
+  },
+  {
+    "id": "focused_s01_q07",
+    "mode": "focused",
+    "set_number": 1,
+    "question_number": 7,
+    "domain": "agentic",
+    "domainName": "Agentic Architecture & Orchestration",
+    "difficulty": "medium",
+    "question": "Zerodha's compliance system uses agents to process SEBI regulatory updates and adjust trading rules. What is the recommended approach?",
+    "options": {
+      "A": "Allow agents to modify each other's state directly",
+      "B": "Implement message passing with defined schemas and idempotent operations",
+      "C": "Use global variables for inter-agent communication",
+      "D": "Avoid any form of inter-agent communication"
+    },
+    "correctAnswer": "B",
+    "explanation": "Multi-agent systems require orchestration, shared state management, and defined communication patterns. Option B provides the production-ready approach with proper coordination."
+  },
+  {
+    "id": "focused_s01_q08",
+    "mode": "focused",
+    "set_number": 1,
+    "question_number": 8,
+    "domain": "agentic",
+    "domainName": "Agentic Architecture & Orchestration",
+    "difficulty": "hard",
+    "question": "Pratham Education's AI tutoring system coordinates content, assessment, and feedback agents. What is the recommended approach?",
+    "options": {
+      "A": "Use a single monolithic agent with all capabilities",
+      "B": "Deploy specialized agents with a supervisor orchestrator and shared state",
+      "C": "Run agents independently without coordination",
+      "D": "Use hardcoded decision trees instead of agents"
+    },
+    "correctAnswer": "B",
+    "explanation": "Multi-agent systems require orchestration, shared state management, and defined communication patterns. Option B provides the production-ready approach with proper coordination."
+  },
+  {
+    "id": "focused_s01_q09",
+    "mode": "focused",
+    "set_number": 1,
+    "question_number": 9,
+    "domain": "agentic",
+    "domainName": "Agentic Architecture & Orchestration",
+    "difficulty": "easy",
+    "question": "At Sarvam AI, the engineering team is building a multi-agent system for KYC verification across rural banking partners. What is the recommended approach?",
+    "options": {
+      "A": "Allow agents to modify each other's state directly",
+      "B": "Implement message passing with defined schemas and idempotent operations",
+      "C": "Use global variables for inter-agent communication",
+      "D": "Avoid any form of inter-agent communication"
+    },
+    "correctAnswer": "B",
+    "explanation": "Multi-agent systems require orchestration, shared state management, and defined communication patterns. Option B provides the production-ready approach with proper coordination."
+  },
+  {
+    "id": "focused_s01_q10",
+    "mode": "focused",
+    "set_number": 1,
+    "question_number": 10,
+    "domain": "agentic",
+    "domainName": "Agentic Architecture & Orchestration",
+    "difficulty": "medium",
+    "question": "CRED's platform team needs to orchestrate multiple Claude agents for their bill payment reminder system. What is the recommended approach?",
+    "options": {
+      "A": "Use a single monolithic agent with all capabilities",
+      "B": "Deploy specialized agents with a supervisor orchestrator and shared state",
+      "C": "Run agents independently without coordination",
+      "D": "Use hardcoded decision trees instead of agents"
+    },
+    "correctAnswer": "B",
+    "explanation": "Multi-agent systems require orchestration, shared state management, and defined communication patterns. Option B provides the production-ready approach with proper coordination."
+  },
+  {
+    "id": "focused_s01_q11",
+    "mode": "focused",
+    "set_number": 1,
+    "question_number": 11,
+    "domain": "agentic",
+    "domainName": "Agentic Architecture & Orchestration",
+    "difficulty": "hard",
+    "question": "Swiggy's logistics team uses agentic AI to optimize delivery routes across 500+ cities in real-time. What is the recommended approach?",
+    "options": {
+      "A": "Allow agents to modify each other's state directly",
+      "B": "Implement message passing with defined schemas and idempotent operations",
+      "C": "Use global variables for inter-agent communication",
+      "D": "Avoid any form of inter-agent communication"
+    },
+    "correctAnswer": "B",
+    "explanation": "Multi-agent systems require orchestration, shared state management, and defined communication patterns. Option B provides the production-ready approach with proper coordination."
+  },
+  {
+    "id": "focused_s01_q12",
+    "mode": "focused",
+    "set_number": 1,
+    "question_number": 12,
+    "domain": "agentic",
+    "domainName": "Agentic Architecture & Orchestration",
+    "difficulty": "easy",
+    "question": "Razorpay's risk engine deploys autonomous agents to detect payment fraud patterns across UPI transactions. What is the recommended approach?",
+    "options": {
+      "A": "Use a single monolithic agent with all capabilities",
+      "B": "Deploy specialized agents with a supervisor orchestrator and shared state",
+      "C": "Run agents independently without coordination",
+      "D": "Use hardcoded decision trees instead of agents"
+    },
+    "correctAnswer": "B",
+    "explanation": "Multi-agent systems require orchestration, shared state management, and defined communication patterns. Option B provides the production-ready approach with proper coordination."
+  },
+  {
+    "id": "focused_s01_q13",
+    "mode": "focused",
+    "set_number": 1,
+    "question_number": 13,
+    "domain": "agentic",
+    "domainName": "Agentic Architecture & Orchestration",
+    "difficulty": "medium",
+    "question": "Air India's customer support uses a hierarchy of agents for flight rebooking during weather disruptions. What is the recommended approach?",
+    "options": {
+      "A": "Allow agents to modify each other's state directly",
+      "B": "Implement message passing with defined schemas and idempotent operations",
+      "C": "Use global variables for inter-agent communication",
+      "D": "Avoid any form of inter-agent communication"
+    },
+    "correctAnswer": "B",
+    "explanation": "Multi-agent systems require orchestration, shared state management, and defined communication patterns. Option B provides the production-ready approach with proper coordination."
+  },
+  {
+    "id": "focused_s01_q14",
+    "mode": "focused",
+    "set_number": 1,
+    "question_number": 14,
+    "domain": "agentic",
+    "domainName": "Agentic Architecture & Orchestration",
+    "difficulty": "hard",
+    "question": "HCLTech is implementing an agentic architecture for automated code review across 50+ client projects. What is the recommended approach?",
+    "options": {
+      "A": "Use a single monolithic agent with all capabilities",
+      "B": "Deploy specialized agents with a supervisor orchestrator and shared state",
+      "C": "Run agents independently without coordination",
+      "D": "Use hardcoded decision trees instead of agents"
+    },
+    "correctAnswer": "B",
+    "explanation": "Multi-agent systems require orchestration, shared state management, and defined communication patterns. Option B provides the production-ready approach with proper coordination."
+  },
+  {
+    "id": "focused_s01_q15",
+    "mode": "focused",
+    "set_number": 1,
+    "question_number": 15,
+    "domain": "agentic",
+    "domainName": "Agentic Architecture & Orchestration",
+    "difficulty": "easy",
+    "question": "Digital Green's agriculture AI uses coordinated agents to provide farming advice in 12 Indian languages. What is the recommended approach?",
+    "options": {
+      "A": "Allow agents to modify each other's state directly",
+      "B": "Implement message passing with defined schemas and idempotent operations",
+      "C": "Use global variables for inter-agent communication",
+      "D": "Avoid any form of inter-agent communication"
+    },
+    "correctAnswer": "B",
+    "explanation": "Multi-agent systems require orchestration, shared state management, and defined communication patterns. Option B provides the production-ready approach with proper coordination."
+  },
+  {
+    "id": "focused_s01_q16",
+    "mode": "focused",
+    "set_number": 1,
+    "question_number": 16,
+    "domain": "agentic",
+    "domainName": "Agentic Architecture & Orchestration",
+    "difficulty": "medium",
+    "question": "Ola's safety team deploys agentic systems to monitor ride patterns and detect anomalies. What is the recommended approach?",
+    "options": {
+      "A": "Use a single monolithic agent with all capabilities",
+      "B": "Deploy specialized agents with a supervisor orchestrator and shared state",
+      "C": "Run agents independently without coordination",
+      "D": "Use hardcoded decision trees instead of agents"
+    },
+    "correctAnswer": "B",
+    "explanation": "Multi-agent systems require orchestration, shared state management, and defined communication patterns. Option B provides the production-ready approach with proper coordination."
+  },
+  {
+    "id": "focused_s01_q17",
+    "mode": "focused",
+    "set_number": 1,
+    "question_number": 17,
+    "domain": "agentic",
+    "domainName": "Agentic Architecture & Orchestration",
+    "difficulty": "hard",
+    "question": "Zerodha's compliance system uses agents to process SEBI regulatory updates and adjust trading rules. What is the recommended approach?",
+    "options": {
+      "A": "Allow agents to modify each other's state directly",
+      "B": "Implement message passing with defined schemas and idempotent operations",
+      "C": "Use global variables for inter-agent communication",
+      "D": "Avoid any form of inter-agent communication"
+    },
+    "correctAnswer": "B",
+    "explanation": "Multi-agent systems require orchestration, shared state management, and defined communication patterns. Option B provides the production-ready approach with proper coordination."
+  },
+  {
+    "id": "focused_s01_q18",
+    "mode": "focused",
+    "set_number": 1,
+    "question_number": 18,
+    "domain": "agentic",
+    "domainName": "Agentic Architecture & Orchestration",
+    "difficulty": "easy",
+    "question": "Pratham Education's AI tutoring system coordinates content, assessment, and feedback agents. What is the recommended approach?",
+    "options": {
+      "A": "Use a single monolithic agent with all capabilities",
+      "B": "Deploy specialized agents with a supervisor orchestrator and shared state",
+      "C": "Run agents independently without coordination",
+      "D": "Use hardcoded decision trees instead of agents"
+    },
+    "correctAnswer": "B",
+    "explanation": "Multi-agent systems require orchestration, shared state management, and defined communication patterns. Option B provides the production-ready approach with proper coordination."
+  },
+  {
+    "id": "focused_s01_q19",
+    "mode": "focused",
+    "set_number": 1,
+    "question_number": 19,
+    "domain": "agentic",
+    "domainName": "Agentic Architecture & Orchestration",
+    "difficulty": "medium",
+    "question": "At Sarvam AI, the engineering team is building a multi-agent system for KYC verification across rural banking partners. What is the recommended approach?",
+    "options": {
+      "A": "Allow agents to modify each other's state directly",
+      "B": "Implement message passing with defined schemas and idempotent operations",
+      "C": "Use global variables for inter-agent communication",
+      "D": "Avoid any form of inter-agent communication"
+    },
+    "correctAnswer": "B",
+    "explanation": "Multi-agent systems require orchestration, shared state management, and defined communication patterns. Option B provides the production-ready approach with proper coordination."
+  },
+  {
+    "id": "focused_s01_q20",
+    "mode": "focused",
+    "set_number": 1,
+    "question_number": 20,
+    "domain": "agentic",
+    "domainName": "Agentic Architecture & Orchestration",
+    "difficulty": "hard",
+    "question": "CRED's platform team needs to orchestrate multiple Claude agents for their bill payment reminder system. What is the recommended approach?",
+    "options": {
+      "A": "Use a single monolithic agent with all capabilities",
+      "B": "Deploy specialized agents with a supervisor orchestrator and shared state",
+      "C": "Run agents independently without coordination",
+      "D": "Use hardcoded decision trees instead of agents"
+    },
+    "correctAnswer": "B",
+    "explanation": "Multi-agent systems require orchestration, shared state management, and defined communication patterns. Option B provides the production-ready approach with proper coordination."
+  }
+]

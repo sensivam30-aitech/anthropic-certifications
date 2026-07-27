@@ -14,22 +14,49 @@ export default function TestModePage() {
   const [session, setSession] = useState<any>(null);
   const [currentIdx, setCurrentIdx] = useState(0);
   const [loading, setLoading] = useState(true);
+  const [error, setError] = useState<string | null>(null);
   const [selected, setSelected] = useState<string | null>(null);
   const [result, setResult] = useState<any>(null);
 
-  const { formatted, isExpired } = useTimer(session ? getTimeRemaining(session.sessionId) : 0, () => {
-    if (session) handleSubmit();
-  });
+  const { formatted, isExpired } = useTimer(
+    session && session.sessionId ? getTimeRemaining(session.sessionId) : 0,
+    () => {
+      if (session && session.sessionId) handleSubmit();
+    }
+  );
 
   useEffect(() => {
     if (!mode) return;
-    startTest(mode as any).then(s => {
-      setSession(s);
-      setLoading(false);
-    });
+    startTest(mode as any)
+      .then(s => {
+        setSession(s);
+        setLoading(false);
+      })
+      .catch(err => {
+        setError(err?.message || 'Failed to load test questions');
+        setLoading(false);
+      });
   }, [mode]);
 
-  if (loading) return <div className="max-w-4xl mx-auto px-4 py-20 text-center text-text-secondary">Loading test...</div>;
+  if (loading) {
+    return (
+      <div className="max-w-4xl mx-auto px-4 py-20 text-center text-text-secondary">
+        <div className="animate-pulse">Loading test...</div>
+      </div>
+    );
+  }
+
+  if (error) {
+    return (
+      <div className="max-w-4xl mx-auto px-4 py-20 text-center">
+        <Card className="py-12">
+          <h2 className="text-xl font-bold text-red-400 mb-4">Error</h2>
+          <p className="text-text-secondary mb-6">{error}</p>
+          <Button onClick={() => router.push('/practice/')}>Back to Practice</Button>
+        </Card>
+      </div>
+    );
+  }
 
   if (result) {
     return (
@@ -48,8 +75,27 @@ export default function TestModePage() {
     );
   }
 
+  if (!session || !session.questions || session.questions.length === 0) {
+    return (
+      <div className="max-w-4xl mx-auto px-4 py-20 text-center text-text-secondary">
+        <Card className="py-12">
+          <p className="mb-4">No questions available for this test.</p>
+          <Button onClick={() => router.push('/practice/')}>Back to Practice</Button>
+        </Card>
+      </div>
+    );
+  }
+
   const question = session.questions[currentIdx];
   const total = session.questions.length;
+
+  if (!question) {
+    return (
+      <div className="max-w-4xl mx-auto px-4 py-20 text-center text-text-secondary">
+        <p>Question not found.</p>
+      </div>
+    );
+  }
 
   const handleAnswer = (opt: string) => {
     setSelected(opt);
@@ -57,8 +103,12 @@ export default function TestModePage() {
   };
 
   const handleSubmit = () => {
-    const res = finalizeTest(session.sessionId);
-    setResult(res);
+    try {
+      const res = finalizeTest(session.sessionId);
+      setResult(res);
+    } catch {
+      setError('Failed to finalize test. Please try again.');
+    }
   };
 
   return (
