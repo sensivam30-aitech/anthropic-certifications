@@ -1,0 +1,362 @@
+[
+  {
+    "id": "focused_s07_q01",
+    "mode": "focused",
+    "set_number": 7,
+    "question_number": 1,
+    "domain": "claude_code",
+    "domainName": "Claude Code Configuration & Workflows",
+    "difficulty": "medium",
+    "question": "Ola's mapping team integrates Claude Code with their Python geospatial analysis workflows. What is the recommended approach?",
+    "options": {
+      "A": "Store API keys in the repository for convenience",
+      "B": "Use environment variables and skills to manage secrets and standardize workflows",
+      "C": "Hardcode configuration values in source files",
+      "D": "Avoid version control for Claude Code configurations"
+    },
+    "correctAnswer": "B",
+    "explanation": "CLAUDE.md and plan mode are designed for safe, structured development. Environment variables and skills ensure consistency and security across team workflows."
+  },
+  {
+    "id": "focused_s07_q02",
+    "mode": "focused",
+    "set_number": 7,
+    "question_number": 2,
+    "domain": "claude_code",
+    "domainName": "Claude Code Configuration & Workflows",
+    "difficulty": "hard",
+    "question": "Pratham's ed-tech developers use Claude Code to generate accessible content for low-bandwidth users. What is the recommended approach?",
+    "options": {
+      "A": "Run Claude Code directly on production servers",
+      "B": "Configure CLAUDE.md with project conventions and use plan mode for complex changes",
+      "C": "Disable all safety checks for faster execution",
+      "D": "Use Claude Code only for documentation, never for code changes"
+    },
+    "correctAnswer": "B",
+    "explanation": "CLAUDE.md and plan mode are designed for safe, structured development. Environment variables and skills ensure consistency and security across team workflows."
+  },
+  {
+    "id": "focused_s07_q03",
+    "mode": "focused",
+    "set_number": 7,
+    "question_number": 3,
+    "domain": "claude_code",
+    "domainName": "Claude Code Configuration & Workflows",
+    "difficulty": "easy",
+    "question": "A developer at CRED configures Claude Code for their microservices repository with 40+ services. What is the recommended approach?",
+    "options": {
+      "A": "Store API keys in the repository for convenience",
+      "B": "Use environment variables and skills to manage secrets and standardize workflows",
+      "C": "Hardcode configuration values in source files",
+      "D": "Avoid version control for Claude Code configurations"
+    },
+    "correctAnswer": "B",
+    "explanation": "CLAUDE.md and plan mode are designed for safe, structured development. Environment variables and skills ensure consistency and security across team workflows."
+  },
+  {
+    "id": "focused_s07_q04",
+    "mode": "focused",
+    "set_number": 7,
+    "question_number": 4,
+    "domain": "claude_code",
+    "domainName": "Claude Code Configuration & Workflows",
+    "difficulty": "medium",
+    "question": "The Razorpay DevOps team integrates Claude Code into their GitHub Actions CI/CD pipeline. What is the recommended approach?",
+    "options": {
+      "A": "Run Claude Code directly on production servers",
+      "B": "Configure CLAUDE.md with project conventions and use plan mode for complex changes",
+      "C": "Disable all safety checks for faster execution",
+      "D": "Use Claude Code only for documentation, never for code changes"
+    },
+    "correctAnswer": "B",
+    "explanation": "CLAUDE.md and plan mode are designed for safe, structured development. Environment variables and skills ensure consistency and security across team workflows."
+  },
+  {
+    "id": "focused_s07_q05",
+    "mode": "focused",
+    "set_number": 7,
+    "question_number": 5,
+    "domain": "claude_code",
+    "domainName": "Claude Code Configuration & Workflows",
+    "difficulty": "hard",
+    "question": "Swiggy's frontend team uses Claude Code's plan mode to refactor their React Native delivery app. What is the recommended approach?",
+    "options": {
+      "A": "Store API keys in the repository for convenience",
+      "B": "Use environment variables and skills to manage secrets and standardize workflows",
+      "C": "Hardcode configuration values in source files",
+      "D": "Avoid version control for Claude Code configurations"
+    },
+    "correctAnswer": "B",
+    "explanation": "CLAUDE.md and plan mode are designed for safe, structured development. Environment variables and skills ensure consistency and security across team workflows."
+  },
+  {
+    "id": "focused_s07_q06",
+    "mode": "focused",
+    "set_number": 7,
+    "question_number": 6,
+    "domain": "claude_code",
+    "domainName": "Claude Code Configuration & Workflows",
+    "difficulty": "easy",
+    "question": "A Sarvam AI engineer creates custom slash commands for Claude Code to generate Indic language test cases. What is the recommended approach?",
+    "options": {
+      "A": "Run Claude Code directly on production servers",
+      "B": "Configure CLAUDE.md with project conventions and use plan mode for complex changes",
+      "C": "Disable all safety checks for faster execution",
+      "D": "Use Claude Code only for documentation, never for code changes"
+    },
+    "correctAnswer": "B",
+    "explanation": "CLAUDE.md and plan mode are designed for safe, structured development. Environment variables and skills ensure consistency and security across team workflows."
+  },
+  {
+    "id": "focused_s07_q07",
+    "mode": "focused",
+    "set_number": 7,
+    "question_number": 7,
+    "domain": "claude_code",
+    "domainName": "Claude Code Configuration & Workflows",
+    "difficulty": "medium",
+    "question": "Air India's software team writes a CLAUDE.md for their legacy reservation system migration. What is the recommended approach?",
+    "options": {
+      "A": "Store API keys in the repository for convenience",
+      "B": "Use environment variables and skills to manage secrets and standardize workflows",
+      "C": "Hardcode configuration values in source files",
+      "D": "Avoid version control for Claude Code configurations"
+    },
+    "correctAnswer": "B",
+    "explanation": "CLAUDE.md and plan mode are designed for safe, structured development. Environment variables and skills ensure consistency and security across team workflows."
+  },
+  {
+    "id": "focused_s07_q08",
+    "mode": "focused",
+    "set_number": 7,
+    "question_number": 8,
+    "domain": "claude_code",
+    "domainName": "Claude Code Configuration & Workflows",
+    "difficulty": "hard",
+    "question": "HCLTech developers use Claude Code skills to standardize API documentation across client projects. What is the recommended approach?",
+    "options": {
+      "A": "Run Claude Code directly on production servers",
+      "B": "Configure CLAUDE.md with project conventions and use plan mode for complex changes",
+      "C": "Disable all safety checks for faster execution",
+      "D": "Use Claude Code only for documentation, never for code changes"
+    },
+    "correctAnswer": "B",
+    "explanation": "CLAUDE.md and plan mode are designed for safe, structured development. Environment variables and skills ensure consistency and security across team workflows."
+  },
+  {
+    "id": "focused_s07_q09",
+    "mode": "focused",
+    "set_number": 7,
+    "question_number": 9,
+    "domain": "claude_code",
+    "domainName": "Claude Code Configuration & Workflows",
+    "difficulty": "easy",
+    "question": "A Zerodha engineer configures Claude Code to work with their Go-based trading infrastructure. What is the recommended approach?",
+    "options": {
+      "A": "Store API keys in the repository for convenience",
+      "B": "Use environment variables and skills to manage secrets and standardize workflows",
+      "C": "Hardcode configuration values in source files",
+      "D": "Avoid version control for Claude Code configurations"
+    },
+    "correctAnswer": "B",
+    "explanation": "CLAUDE.md and plan mode are designed for safe, structured development. Environment variables and skills ensure consistency and security across team workflows."
+  },
+  {
+    "id": "focused_s07_q10",
+    "mode": "focused",
+    "set_number": 7,
+    "question_number": 10,
+    "domain": "claude_code",
+    "domainName": "Claude Code Configuration & Workflows",
+    "difficulty": "medium",
+    "question": "Digital Green's team uses Claude Code for batch processing of agricultural data pipelines. What is the recommended approach?",
+    "options": {
+      "A": "Run Claude Code directly on production servers",
+      "B": "Configure CLAUDE.md with project conventions and use plan mode for complex changes",
+      "C": "Disable all safety checks for faster execution",
+      "D": "Use Claude Code only for documentation, never for code changes"
+    },
+    "correctAnswer": "B",
+    "explanation": "CLAUDE.md and plan mode are designed for safe, structured development. Environment variables and skills ensure consistency and security across team workflows."
+  },
+  {
+    "id": "focused_s07_q11",
+    "mode": "focused",
+    "set_number": 7,
+    "question_number": 11,
+    "domain": "claude_code",
+    "domainName": "Claude Code Configuration & Workflows",
+    "difficulty": "hard",
+    "question": "Ola's mapping team integrates Claude Code with their Python geospatial analysis workflows. What is the recommended approach?",
+    "options": {
+      "A": "Store API keys in the repository for convenience",
+      "B": "Use environment variables and skills to manage secrets and standardize workflows",
+      "C": "Hardcode configuration values in source files",
+      "D": "Avoid version control for Claude Code configurations"
+    },
+    "correctAnswer": "B",
+    "explanation": "CLAUDE.md and plan mode are designed for safe, structured development. Environment variables and skills ensure consistency and security across team workflows."
+  },
+  {
+    "id": "focused_s07_q12",
+    "mode": "focused",
+    "set_number": 7,
+    "question_number": 12,
+    "domain": "claude_code",
+    "domainName": "Claude Code Configuration & Workflows",
+    "difficulty": "easy",
+    "question": "Pratham's ed-tech developers use Claude Code to generate accessible content for low-bandwidth users. What is the recommended approach?",
+    "options": {
+      "A": "Run Claude Code directly on production servers",
+      "B": "Configure CLAUDE.md with project conventions and use plan mode for complex changes",
+      "C": "Disable all safety checks for faster execution",
+      "D": "Use Claude Code only for documentation, never for code changes"
+    },
+    "correctAnswer": "B",
+    "explanation": "CLAUDE.md and plan mode are designed for safe, structured development. Environment variables and skills ensure consistency and security across team workflows."
+  },
+  {
+    "id": "focused_s07_q13",
+    "mode": "focused",
+    "set_number": 7,
+    "question_number": 13,
+    "domain": "claude_code",
+    "domainName": "Claude Code Configuration & Workflows",
+    "difficulty": "medium",
+    "question": "A developer at CRED configures Claude Code for their microservices repository with 40+ services. What is the recommended approach?",
+    "options": {
+      "A": "Store API keys in the repository for convenience",
+      "B": "Use environment variables and skills to manage secrets and standardize workflows",
+      "C": "Hardcode configuration values in source files",
+      "D": "Avoid version control for Claude Code configurations"
+    },
+    "correctAnswer": "B",
+    "explanation": "CLAUDE.md and plan mode are designed for safe, structured development. Environment variables and skills ensure consistency and security across team workflows."
+  },
+  {
+    "id": "focused_s07_q14",
+    "mode": "focused",
+    "set_number": 7,
+    "question_number": 14,
+    "domain": "claude_code",
+    "domainName": "Claude Code Configuration & Workflows",
+    "difficulty": "hard",
+    "question": "The Razorpay DevOps team integrates Claude Code into their GitHub Actions CI/CD pipeline. What is the recommended approach?",
+    "options": {
+      "A": "Run Claude Code directly on production servers",
+      "B": "Configure CLAUDE.md with project conventions and use plan mode for complex changes",
+      "C": "Disable all safety checks for faster execution",
+      "D": "Use Claude Code only for documentation, never for code changes"
+    },
+    "correctAnswer": "B",
+    "explanation": "CLAUDE.md and plan mode are designed for safe, structured development. Environment variables and skills ensure consistency and security across team workflows."
+  },
+  {
+    "id": "focused_s07_q15",
+    "mode": "focused",
+    "set_number": 7,
+    "question_number": 15,
+    "domain": "claude_code",
+    "domainName": "Claude Code Configuration & Workflows",
+    "difficulty": "easy",
+    "question": "Swiggy's frontend team uses Claude Code's plan mode to refactor their React Native delivery app. What is the recommended approach?",
+    "options": {
+      "A": "Store API keys in the repository for convenience",
+      "B": "Use environment variables and skills to manage secrets and standardize workflows",
+      "C": "Hardcode configuration values in source files",
+      "D": "Avoid version control for Claude Code configurations"
+    },
+    "correctAnswer": "B",
+    "explanation": "CLAUDE.md and plan mode are designed for safe, structured development. Environment variables and skills ensure consistency and security across team workflows."
+  },
+  {
+    "id": "focused_s07_q16",
+    "mode": "focused",
+    "set_number": 7,
+    "question_number": 16,
+    "domain": "claude_code",
+    "domainName": "Claude Code Configuration & Workflows",
+    "difficulty": "medium",
+    "question": "A Sarvam AI engineer creates custom slash commands for Claude Code to generate Indic language test cases. What is the recommended approach?",
+    "options": {
+      "A": "Run Claude Code directly on production servers",
+      "B": "Configure CLAUDE.md with project conventions and use plan mode for complex changes",
+      "C": "Disable all safety checks for faster execution",
+      "D": "Use Claude Code only for documentation, never for code changes"
+    },
+    "correctAnswer": "B",
+    "explanation": "CLAUDE.md and plan mode are designed for safe, structured development. Environment variables and skills ensure consistency and security across team workflows."
+  },
+  {
+    "id": "focused_s07_q17",
+    "mode": "focused",
+    "set_number": 7,
+    "question_number": 17,
+    "domain": "claude_code",
+    "domainName": "Claude Code Configuration & Workflows",
+    "difficulty": "hard",
+    "question": "Air India's software team writes a CLAUDE.md for their legacy reservation system migration. What is the recommended approach?",
+    "options": {
+      "A": "Store API keys in the repository for convenience",
+      "B": "Use environment variables and skills to manage secrets and standardize workflows",
+      "C": "Hardcode configuration values in source files",
+      "D": "Avoid version control for Claude Code configurations"
+    },
+    "correctAnswer": "B",
+    "explanation": "CLAUDE.md and plan mode are designed for safe, structured development. Environment variables and skills ensure consistency and security across team workflows."
+  },
+  {
+    "id": "focused_s07_q18",
+    "mode": "focused",
+    "set_number": 7,
+    "question_number": 18,
+    "domain": "claude_code",
+    "domainName": "Claude Code Configuration & Workflows",
+    "difficulty": "easy",
+    "question": "HCLTech developers use Claude Code skills to standardize API documentation across client projects. What is the recommended approach?",
+    "options": {
+      "A": "Run Claude Code directly on production servers",
+      "B": "Configure CLAUDE.md with project conventions and use plan mode for complex changes",
+      "C": "Disable all safety checks for faster execution",
+      "D": "Use Claude Code only for documentation, never for code changes"
+    },
+    "correctAnswer": "B",
+    "explanation": "CLAUDE.md and plan mode are designed for safe, structured development. Environment variables and skills ensure consistency and security across team workflows."
+  },
+  {
+    "id": "focused_s07_q19",
+    "mode": "focused",
+    "set_number": 7,
+    "question_number": 19,
+    "domain": "claude_code",
+    "domainName": "Claude Code Configuration & Workflows",
+    "difficulty": "medium",
+    "question": "A Zerodha engineer configures Claude Code to work with their Go-based trading infrastructure. What is the recommended approach?",
+    "options": {
+      "A": "Store API keys in the repository for convenience",
+      "B": "Use environment variables and skills to manage secrets and standardize workflows",
+      "C": "Hardcode configuration values in source files",
+      "D": "Avoid version control for Claude Code configurations"
+    },
+    "correctAnswer": "B",
+    "explanation": "CLAUDE.md and plan mode are designed for safe, structured development. Environment variables and skills ensure consistency and security across team workflows."
+  },
+  {
+    "id": "focused_s07_q20",
+    "mode": "focused",
+    "set_number": 7,
+    "question_number": 20,
+    "domain": "claude_code",
+    "domainName": "Claude Code Configuration & Workflows",
+    "difficulty": "hard",
+    "question": "Digital Green's team uses Claude Code for batch processing of agricultural data pipelines. What is the recommended approach?",
+    "options": {
+      "A": "Run Claude Code directly on production servers",
+      "B": "Configure CLAUDE.md with project conventions and use plan mode for complex changes",
+      "C": "Disable all safety checks for faster execution",
+      "D": "Use Claude Code only for documentation, never for code changes"
+    },
+    "correctAnswer": "B",
+    "explanation": "CLAUDE.md and plan mode are designed for safe, structured development. Environment variables and skills ensure consistency and security across team workflows."
+  }
+]

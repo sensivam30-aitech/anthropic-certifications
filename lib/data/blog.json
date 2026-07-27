@@ -1,0 +1,102 @@
+[
+  {
+    "id": "1",
+    "title": "How I Passed CCA-F on First Attempt: 893/1000",
+    "excerpt": "A detailed breakdown of my 6-week study plan and the strategies that helped me score 893 on the CCA-F exam.",
+    "content": "## My Journey to CCA-F\\n\\nI started preparing for the Claude Certified Architect \u2013 Foundations exam in early 2026...",
+    "category": "Exam Tips",
+    "date": "15/07/2026",
+    "readTime": 8,
+    "slug": "how-i-passed-cca-f"
+  },
+  {
+    "id": "2",
+    "title": "Claude Fable 5: What It Means for CCA Exam",
+    "excerpt": "Anthropic's latest model update brings significant changes to agentic capabilities. Here's what to study.",
+    "content": "## Fable 5 Overview\\n\\nThe latest Claude model release, codenamed Fable 5, introduces...",
+    "category": "Claude Updates",
+    "date": "10/07/2026",
+    "readTime": 5,
+    "slug": "claude-fable-5-cca"
+  },
+  {
+    "id": "3",
+    "title": "MCP 2026.05 Transport Changes: Streamable HTTP Guide",
+    "excerpt": "The Model Context Protocol has evolved. Learn the new transport mechanisms for the CCA exam.",
+    "content": "## MCP Transport Evolution\\n\\nThe May 2026 update to MCP introduces streamable HTTP...",
+    "category": "Industry News",
+    "date": "05/07/2026",
+    "readTime": 6,
+    "slug": "mcp-2026-transport"
+  },
+  {
+    "id": "4",
+    "title": "Indian Companies Using Claude: Case Studies",
+    "excerpt": "From Razorpay to Swiggy, see how Indian enterprises are deploying Claude in production.",
+    "content": "## Claude in India\\n\\nIndia's AI adoption is accelerating. Companies like CRED, Swiggy, and Razorpay...",
+    "category": "Industry News",
+    "date": "01/07/2026",
+    "readTime": 7,
+    "slug": "indian-companies-claude"
+  },
+  {
+    "id": "5",
+    "title": "PRECISE Framework Deep Dive",
+    "excerpt": "Master the PRECISE prompt engineering framework tested heavily on the CCA-F exam.",
+    "content": "## What is PRECISE?\\n\\nPRECISE stands for Purpose, Role, Examples, Constraints, Iteration, and Evaluation...",
+    "category": "Study Strategies",
+    "date": "28/06/2026",
+    "readTime": 10,
+    "slug": "precise-framework"
+  },
+  {
+    "id": "6",
+    "title": "Top 10 Mistakes CCA-F Candidates Make",
+    "excerpt": "Avoid these common pitfalls that cause candidates to fail the CCA Foundations exam.",
+    "content": "## Common Pitfalls\\n\\nAfter analyzing hundreds of practice test results, we've identified...",
+    "category": "Exam Tips",
+    "date": "20/06/2026",
+    "readTime": 6,
+    "slug": "top-10-mistakes"
+  },
+  {
+    "id": "7",
+    "title": "Agentic Architecture Patterns for Indian Startups",
+    "excerpt": "Practical agentic design patterns tailored for the Indian startup ecosystem.",
+    "content": "## Agentic Patterns\\n\\nIndian startups face unique challenges: multi-lingual support, cost optimization...",
+    "category": "Study Strategies",
+    "date": "15/06/2026",
+    "readTime": 8,
+    "slug": "agentic-patterns-india"
+  },
+  {
+    "id": "8",
+    "title": "Claude Code in CI/CD: A Practical Guide",
+    "excerpt": "Learn how to integrate Claude Code into your continuous integration pipeline.",
+    "content": "## CI/CD Integration\\n\\nClaude Code can be a powerful tool in your CI/CD pipeline...",
+    "category": "Claude Updates",
+    "date": "10/06/2026",
+    "readTime": 7,
+    "slug": "claude-code-cicd"
+  },
+  {
+    "id": "9",
+    "title": "RAG Optimization for Low-Resource Environments",
+    "excerpt": "Techniques to optimize Retrieval-Augmented Generation when compute is limited.",
+    "content": "## RAG on a Budget\\n\\nNot every organization has access to unlimited GPU resources...",
+    "category": "Study Strategies",
+    "date": "05/06/2026",
+    "readTime": 9,
+    "slug": "rag-optimization"
+  },
+  {
+    "id": "10",
+    "title": "CCA-F vs Other AI Certifications: Comparison",
+    "excerpt": "How does the CCA-F stack up against AWS, Azure, and Google Cloud AI certifications?",
+    "content": "## Certification Landscape\\n\\nThe AI certification space is crowded. Here's how CCA-F compares...",
+    "category": "Exam Tips",
+    "date": "01/06/2026",
+    "readTime": 6,
+    "slug": "cca-f-comparison"
+  }
+]

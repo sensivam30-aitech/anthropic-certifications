@@ -1,0 +1,542 @@
+[
+  {
+    "id": "deep_practice_s01_q01",
+    "mode": "deep_practice",
+    "set_number": 1,
+    "question_number": 1,
+    "domain": "agentic",
+    "domainName": "Agentic Architecture & Orchestration",
+    "difficulty": "medium",
+    "question": "Swiggy's logistics team uses agentic AI to optimize delivery routes across 500+ cities in real-time. What is the recommended approach?",
+    "options": {
+      "A": "Allow agents to modify each other's state directly",
+      "B": "Implement message passing with defined schemas and idempotent operations",
+      "C": "Use global variables for inter-agent communication",
+      "D": "Avoid any form of inter-agent communication"
+    },
+    "correctAnswer": "B",
+    "explanation": "Multi-agent systems require orchestration, shared state management, and defined communication patterns. Option B provides the production-ready approach with proper coordination."
+  },
+  {
+    "id": "deep_practice_s01_q02",
+    "mode": "deep_practice",
+    "set_number": 1,
+    "question_number": 2,
+    "domain": "agentic",
+    "domainName": "Agentic Architecture & Orchestration",
+    "difficulty": "hard",
+    "question": "Razorpay's risk engine deploys autonomous agents to detect payment fraud patterns across UPI transactions. What is the recommended approach?",
+    "options": {
+      "A": "Use a single monolithic agent with all capabilities",
+      "B": "Deploy specialized agents with a supervisor orchestrator and shared state",
+      "C": "Run agents independently without coordination",
+      "D": "Use hardcoded decision trees instead of agents"
+    },
+    "correctAnswer": "B",
+    "explanation": "Multi-agent systems require orchestration, shared state management, and defined communication patterns. Option B provides the production-ready approach with proper coordination."
+  },
+  {
+    "id": "deep_practice_s01_q03",
+    "mode": "deep_practice",
+    "set_number": 1,
+    "question_number": 3,
+    "domain": "agentic",
+    "domainName": "Agentic Architecture & Orchestration",
+    "difficulty": "easy",
+    "question": "Air India's customer support uses a hierarchy of agents for flight rebooking during weather disruptions. What is the recommended approach?",
+    "options": {
+      "A": "Allow agents to modify each other's state directly",
+      "B": "Implement message passing with defined schemas and idempotent operations",
+      "C": "Use global variables for inter-agent communication",
+      "D": "Avoid any form of inter-agent communication"
+    },
+    "correctAnswer": "B",
+    "explanation": "Multi-agent systems require orchestration, shared state management, and defined communication patterns. Option B provides the production-ready approach with proper coordination."
+  },
+  {
+    "id": "deep_practice_s01_q04",
+    "mode": "deep_practice",
+    "set_number": 1,
+    "question_number": 4,
+    "domain": "agentic",
+    "domainName": "Agentic Architecture & Orchestration",
+    "difficulty": "medium",
+    "question": "HCLTech is implementing an agentic architecture for automated code review across 50+ client projects. What is the recommended approach?",
+    "options": {
+      "A": "Use a single monolithic agent with all capabilities",
+      "B": "Deploy specialized agents with a supervisor orchestrator and shared state",
+      "C": "Run agents independently without coordination",
+      "D": "Use hardcoded decision trees instead of agents"
+    },
+    "correctAnswer": "B",
+    "explanation": "Multi-agent systems require orchestration, shared state management, and defined communication patterns. Option B provides the production-ready approach with proper coordination."
+  },
+  {
+    "id": "deep_practice_s01_q05",
+    "mode": "deep_practice",
+    "set_number": 1,
+    "question_number": 5,
+    "domain": "agentic",
+    "domainName": "Agentic Architecture & Orchestration",
+    "difficulty": "hard",
+    "question": "Digital Green's agriculture AI uses coordinated agents to provide farming advice in 12 Indian languages. What is the recommended approach?",
+    "options": {
+      "A": "Allow agents to modify each other's state directly",
+      "B": "Implement message passing with defined schemas and idempotent operations",
+      "C": "Use global variables for inter-agent communication",
+      "D": "Avoid any form of inter-agent communication"
+    },
+    "correctAnswer": "B",
+    "explanation": "Multi-agent systems require orchestration, shared state management, and defined communication patterns. Option B provides the production-ready approach with proper coordination."
+  },
+  {
+    "id": "deep_practice_s01_q06",
+    "mode": "deep_practice",
+    "set_number": 1,
+    "question_number": 6,
+    "domain": "agentic",
+    "domainName": "Agentic Architecture & Orchestration",
+    "difficulty": "easy",
+    "question": "Ola's safety team deploys agentic systems to monitor ride patterns and detect anomalies. What is the recommended approach?",
+    "options": {
+      "A": "Use a single monolithic agent with all capabilities",
+      "B": "Deploy specialized agents with a supervisor orchestrator and shared state",
+      "C": "Run agents independently without coordination",
+      "D": "Use hardcoded decision trees instead of agents"
+    },
+    "correctAnswer": "B",
+    "explanation": "Multi-agent systems require orchestration, shared state management, and defined communication patterns. Option B provides the production-ready approach with proper coordination."
+  },
+  {
+    "id": "deep_practice_s01_q07",
+    "mode": "deep_practice",
+    "set_number": 1,
+    "question_number": 7,
+    "domain": "agentic",
+    "domainName": "Agentic Architecture & Orchestration",
+    "difficulty": "medium",
+    "question": "Zerodha's compliance system uses agents to process SEBI regulatory updates and adjust trading rules. What is the recommended approach?",
+    "options": {
+      "A": "Allow agents to modify each other's state directly",
+      "B": "Implement message passing with defined schemas and idempotent operations",
+      "C": "Use global variables for inter-agent communication",
+      "D": "Avoid any form of inter-agent communication"
+    },
+    "correctAnswer": "B",
+    "explanation": "Multi-agent systems require orchestration, shared state management, and defined communication patterns. Option B provides the production-ready approach with proper coordination."
+  },
+  {
+    "id": "deep_practice_s01_q08",
+    "mode": "deep_practice",
+    "set_number": 1,
+    "question_number": 8,
+    "domain": "agentic",
+    "domainName": "Agentic Architecture & Orchestration",
+    "difficulty": "hard",
+    "question": "Pratham Education's AI tutoring system coordinates content, assessment, and feedback agents. What is the recommended approach?",
+    "options": {
+      "A": "Use a single monolithic agent with all capabilities",
+      "B": "Deploy specialized agents with a supervisor orchestrator and shared state",
+      "C": "Run agents independently without coordination",
+      "D": "Use hardcoded decision trees instead of agents"
+    },
+    "correctAnswer": "B",
+    "explanation": "Multi-agent systems require orchestration, shared state management, and defined communication patterns. Option B provides the production-ready approach with proper coordination."
+  },
+  {
+    "id": "deep_practice_s01_q09",
+    "mode": "deep_practice",
+    "set_number": 1,
+    "question_number": 9,
+    "domain": "claude_code",
+    "domainName": "Claude Code Configuration & Workflows",
+    "difficulty": "easy",
+    "question": "A developer at CRED configures Claude Code for their microservices repository with 40+ services. What is the recommended approach?",
+    "options": {
+      "A": "Store API keys in the repository for convenience",
+      "B": "Use environment variables and skills to manage secrets and standardize workflows",
+      "C": "Hardcode configuration values in source files",
+      "D": "Avoid version control for Claude Code configurations"
+    },
+    "correctAnswer": "B",
+    "explanation": "CLAUDE.md and plan mode are designed for safe, structured development. Environment variables and skills ensure consistency and security across team workflows."
+  },
+  {
+    "id": "deep_practice_s01_q10",
+    "mode": "deep_practice",
+    "set_number": 1,
+    "question_number": 10,
+    "domain": "claude_code",
+    "domainName": "Claude Code Configuration & Workflows",
+    "difficulty": "medium",
+    "question": "The Razorpay DevOps team integrates Claude Code into their GitHub Actions CI/CD pipeline. What is the recommended approach?",
+    "options": {
+      "A": "Run Claude Code directly on production servers",
+      "B": "Configure CLAUDE.md with project conventions and use plan mode for complex changes",
+      "C": "Disable all safety checks for faster execution",
+      "D": "Use Claude Code only for documentation, never for code changes"
+    },
+    "correctAnswer": "B",
+    "explanation": "CLAUDE.md and plan mode are designed for safe, structured development. Environment variables and skills ensure consistency and security across team workflows."
+  },
+  {
+    "id": "deep_practice_s01_q11",
+    "mode": "deep_practice",
+    "set_number": 1,
+    "question_number": 11,
+    "domain": "claude_code",
+    "domainName": "Claude Code Configuration & Workflows",
+    "difficulty": "hard",
+    "question": "Swiggy's frontend team uses Claude Code's plan mode to refactor their React Native delivery app. What is the recommended approach?",
+    "options": {
+      "A": "Store API keys in the repository for convenience",
+      "B": "Use environment variables and skills to manage secrets and standardize workflows",
+      "C": "Hardcode configuration values in source files",
+      "D": "Avoid version control for Claude Code configurations"
+    },
+    "correctAnswer": "B",
+    "explanation": "CLAUDE.md and plan mode are designed for safe, structured development. Environment variables and skills ensure consistency and security across team workflows."
+  },
+  {
+    "id": "deep_practice_s01_q12",
+    "mode": "deep_practice",
+    "set_number": 1,
+    "question_number": 12,
+    "domain": "claude_code",
+    "domainName": "Claude Code Configuration & Workflows",
+    "difficulty": "easy",
+    "question": "A Sarvam AI engineer creates custom slash commands for Claude Code to generate Indic language test cases. What is the recommended approach?",
+    "options": {
+      "A": "Run Claude Code directly on production servers",
+      "B": "Configure CLAUDE.md with project conventions and use plan mode for complex changes",
+      "C": "Disable all safety checks for faster execution",
+      "D": "Use Claude Code only for documentation, never for code changes"
+    },
+    "correctAnswer": "B",
+    "explanation": "CLAUDE.md and plan mode are designed for safe, structured development. Environment variables and skills ensure consistency and security across team workflows."
+  },
+  {
+    "id": "deep_practice_s01_q13",
+    "mode": "deep_practice",
+    "set_number": 1,
+    "question_number": 13,
+    "domain": "claude_code",
+    "domainName": "Claude Code Configuration & Workflows",
+    "difficulty": "medium",
+    "question": "Air India's software team writes a CLAUDE.md for their legacy reservation system migration. What is the recommended approach?",
+    "options": {
+      "A": "Store API keys in the repository for convenience",
+      "B": "Use environment variables and skills to manage secrets and standardize workflows",
+      "C": "Hardcode configuration values in source files",
+      "D": "Avoid version control for Claude Code configurations"
+    },
+    "correctAnswer": "B",
+    "explanation": "CLAUDE.md and plan mode are designed for safe, structured development. Environment variables and skills ensure consistency and security across team workflows."
+  },
+  {
+    "id": "deep_practice_s01_q14",
+    "mode": "deep_practice",
+    "set_number": 1,
+    "question_number": 14,
+    "domain": "claude_code",
+    "domainName": "Claude Code Configuration & Workflows",
+    "difficulty": "hard",
+    "question": "HCLTech developers use Claude Code skills to standardize API documentation across client projects. What is the recommended approach?",
+    "options": {
+      "A": "Run Claude Code directly on production servers",
+      "B": "Configure CLAUDE.md with project conventions and use plan mode for complex changes",
+      "C": "Disable all safety checks for faster execution",
+      "D": "Use Claude Code only for documentation, never for code changes"
+    },
+    "correctAnswer": "B",
+    "explanation": "CLAUDE.md and plan mode are designed for safe, structured development. Environment variables and skills ensure consistency and security across team workflows."
+  },
+  {
+    "id": "deep_practice_s01_q15",
+    "mode": "deep_practice",
+    "set_number": 1,
+    "question_number": 15,
+    "domain": "prompting",
+    "domainName": "Prompt Engineering & Structured Output",
+    "difficulty": "easy",
+    "question": "HCLTech consultants design validation-retry patterns for client requirement extraction prompts. What is the recommended approach?",
+    "options": {
+      "A": "Use natural language without any structure",
+      "B": "Provide few-shot examples with consistent formatting and explicit output schemas",
+      "C": "Change prompt style for every request",
+      "D": "Avoid giving examples to prevent bias"
+    },
+    "correctAnswer": "B",
+    "explanation": "The PRECISE framework and structured output with validation are core CCA-F concepts. Few-shot examples improve reliability when formatted consistently."
+  },
+  {
+    "id": "deep_practice_s01_q16",
+    "mode": "deep_practice",
+    "set_number": 1,
+    "question_number": 16,
+    "domain": "prompting",
+    "domainName": "Prompt Engineering & Structured Output",
+    "difficulty": "medium",
+    "question": "Ola's support team creates few-shot examples for handling refund request classifications. What is the recommended approach?",
+    "options": {
+      "A": "Write vague prompts and let the model infer intent",
+      "B": "Use the PRECISE framework with explicit schema definitions and validation",
+      "C": "Always use zero-shot prompting for consistency",
+      "D": "Ignore output validation and trust the model completely"
+    },
+    "correctAnswer": "B",
+    "explanation": "The PRECISE framework and structured output with validation are core CCA-F concepts. Few-shot examples improve reliability when formatted consistently."
+  },
+  {
+    "id": "deep_practice_s01_q17",
+    "mode": "deep_practice",
+    "set_number": 1,
+    "question_number": 17,
+    "domain": "prompting",
+    "domainName": "Prompt Engineering & Structured Output",
+    "difficulty": "hard",
+    "question": "Digital Green's field workers use voice-to-text prompts for illiterate farmer interactions. What is the recommended approach?",
+    "options": {
+      "A": "Use natural language without any structure",
+      "B": "Provide few-shot examples with consistent formatting and explicit output schemas",
+      "C": "Change prompt style for every request",
+      "D": "Avoid giving examples to prevent bias"
+    },
+    "correctAnswer": "B",
+    "explanation": "The PRECISE framework and structured output with validation are core CCA-F concepts. Few-shot examples improve reliability when formatted consistently."
+  },
+  {
+    "id": "deep_practice_s01_q18",
+    "mode": "deep_practice",
+    "set_number": 1,
+    "question_number": 18,
+    "domain": "prompting",
+    "domainName": "Prompt Engineering & Structured Output",
+    "difficulty": "easy",
+    "question": "Pratham's assessment team designs prompts that generate age-appropriate math problems. What is the recommended approach?",
+    "options": {
+      "A": "Write vague prompts and let the model infer intent",
+      "B": "Use the PRECISE framework with explicit schema definitions and validation",
+      "C": "Always use zero-shot prompting for consistency",
+      "D": "Ignore output validation and trust the model completely"
+    },
+    "correctAnswer": "B",
+    "explanation": "The PRECISE framework and structured output with validation are core CCA-F concepts. Few-shot examples improve reliability when formatted consistently."
+  },
+  {
+    "id": "deep_practice_s01_q19",
+    "mode": "deep_practice",
+    "set_number": 1,
+    "question_number": 19,
+    "domain": "prompting",
+    "domainName": "Prompt Engineering & Structured Output",
+    "difficulty": "medium",
+    "question": "A data scientist at Razorpay needs structured JSON output from Claude for transaction categorization. What is the recommended approach?",
+    "options": {
+      "A": "Use natural language without any structure",
+      "B": "Provide few-shot examples with consistent formatting and explicit output schemas",
+      "C": "Change prompt style for every request",
+      "D": "Avoid giving examples to prevent bias"
+    },
+    "correctAnswer": "B",
+    "explanation": "The PRECISE framework and structured output with validation are core CCA-F concepts. Few-shot examples improve reliability when formatted consistently."
+  },
+  {
+    "id": "deep_practice_s01_q20",
+    "mode": "deep_practice",
+    "set_number": 1,
+    "question_number": 20,
+    "domain": "prompting",
+    "domainName": "Prompt Engineering & Structured Output",
+    "difficulty": "hard",
+    "question": "Swiggy's content team uses few-shot prompting to generate consistent restaurant descriptions. What is the recommended approach?",
+    "options": {
+      "A": "Write vague prompts and let the model infer intent",
+      "B": "Use the PRECISE framework with explicit schema definitions and validation",
+      "C": "Always use zero-shot prompting for consistency",
+      "D": "Ignore output validation and trust the model completely"
+    },
+    "correctAnswer": "B",
+    "explanation": "The PRECISE framework and structured output with validation are core CCA-F concepts. Few-shot examples improve reliability when formatted consistently."
+  },
+  {
+    "id": "deep_practice_s01_q21",
+    "mode": "deep_practice",
+    "set_number": 1,
+    "question_number": 21,
+    "domain": "tools_mcp",
+    "domainName": "Tool Design & MCP Integration",
+    "difficulty": "easy",
+    "question": "CRED integrates MCP with their credit score API for personalized financial advice. What is the recommended approach?",
+    "options": {
+      "A": "Implement tools as stateful operations without documentation",
+      "B": "Make tools idempotent with clear error messages and retry logic",
+      "C": "Avoid error handling to reduce complexity",
+      "D": "Use non-standard transport protocols"
+    },
+    "correctAnswer": "B",
+    "explanation": "MCP tools require strict schemas, input validation, and clear error handling. Idempotency ensures safe retries in production environments."
+  },
+  {
+    "id": "deep_practice_s01_q22",
+    "mode": "deep_practice",
+    "set_number": 1,
+    "question_number": 22,
+    "domain": "tools_mcp",
+    "domainName": "Tool Design & MCP Integration",
+    "difficulty": "medium",
+    "question": "Sarvam AI creates MCP servers for their Astra API to enable Indic language capabilities. What is the recommended approach?",
+    "options": {
+      "A": "Allow tools to execute arbitrary code without validation",
+      "B": "Design strict JSON schemas with input validation and descriptive metadata",
+      "C": "Hide tool errors from the model to simplify output",
+      "D": "Use plain text instead of structured schemas"
+    },
+    "correctAnswer": "B",
+    "explanation": "MCP tools require strict schemas, input validation, and clear error handling. Idempotency ensures safe retries in production environments."
+  },
+  {
+    "id": "deep_practice_s01_q23",
+    "mode": "deep_practice",
+    "set_number": 1,
+    "question_number": 23,
+    "domain": "tools_mcp",
+    "domainName": "Tool Design & MCP Integration",
+    "difficulty": "hard",
+    "question": "Air India develops MCP tools for flight status, booking, and check-in operations. What is the recommended approach?",
+    "options": {
+      "A": "Implement tools as stateful operations without documentation",
+      "B": "Make tools idempotent with clear error messages and retry logic",
+      "C": "Avoid error handling to reduce complexity",
+      "D": "Use non-standard transport protocols"
+    },
+    "correctAnswer": "B",
+    "explanation": "MCP tools require strict schemas, input validation, and clear error handling. Idempotency ensures safe retries in production environments."
+  },
+  {
+    "id": "deep_practice_s01_q24",
+    "mode": "deep_practice",
+    "set_number": 1,
+    "question_number": 24,
+    "domain": "tools_mcp",
+    "domainName": "Tool Design & MCP Integration",
+    "difficulty": "easy",
+    "question": "Zerodha builds MCP tools for market data retrieval and order placement. What is the recommended approach?",
+    "options": {
+      "A": "Allow tools to execute arbitrary code without validation",
+      "B": "Design strict JSON schemas with input validation and descriptive metadata",
+      "C": "Hide tool errors from the model to simplify output",
+      "D": "Use plain text instead of structured schemas"
+    },
+    "correctAnswer": "B",
+    "explanation": "MCP tools require strict schemas, input validation, and clear error handling. Idempotency ensures safe retries in production environments."
+  },
+  {
+    "id": "deep_practice_s01_q25",
+    "mode": "deep_practice",
+    "set_number": 1,
+    "question_number": 25,
+    "domain": "tools_mcp",
+    "domainName": "Tool Design & MCP Integration",
+    "difficulty": "medium",
+    "question": "HCLTech standardizes MCP tool schemas across their enterprise client portfolio. What is the recommended approach?",
+    "options": {
+      "A": "Implement tools as stateful operations without documentation",
+      "B": "Make tools idempotent with clear error messages and retry logic",
+      "C": "Avoid error handling to reduce complexity",
+      "D": "Use non-standard transport protocols"
+    },
+    "correctAnswer": "B",
+    "explanation": "MCP tools require strict schemas, input validation, and clear error handling. Idempotency ensures safe retries in production environments."
+  },
+  {
+    "id": "deep_practice_s01_q26",
+    "mode": "deep_practice",
+    "set_number": 1,
+    "question_number": 26,
+    "domain": "context",
+    "domainName": "Context Management & Reliability",
+    "difficulty": "hard",
+    "question": "Ola's ride history uses semantic chunking for personalized route suggestions. What is the recommended approach?",
+    "options": {
+      "A": "Send the entire conversation history with every request",
+      "B": "Use progressive summarization and semantic chunking with relevance scoring",
+      "C": "Discard all context after each turn",
+      "D": "Store context in client-side cookies"
+    },
+    "correctAnswer": "B",
+    "explanation": "Efficient context management uses summarization and chunking rather than brute-force history. Backoff and circuit breakers are essential for resilient systems."
+  },
+  {
+    "id": "deep_practice_s01_q27",
+    "mode": "deep_practice",
+    "set_number": 1,
+    "question_number": 27,
+    "domain": "context",
+    "domainName": "Context Management & Reliability",
+    "difficulty": "easy",
+    "question": "Digital Green's knowledge base requires RAG optimization for low-bandwidth rural areas. What is the recommended approach?",
+    "options": {
+      "A": "Ignore rate limits and send requests as fast as possible",
+      "B": "Implement exponential backoff with jitter and circuit breaker patterns",
+      "C": "Use a single retry without delay",
+      "D": "Block all requests when one fails"
+    },
+    "correctAnswer": "B",
+    "explanation": "Efficient context management uses summarization and chunking rather than brute-force history. Backoff and circuit breakers are essential for resilient systems."
+  },
+  {
+    "id": "deep_practice_s01_q28",
+    "mode": "deep_practice",
+    "set_number": 1,
+    "question_number": 28,
+    "domain": "context",
+    "domainName": "Context Management & Reliability",
+    "difficulty": "medium",
+    "question": "Pratham's tutoring system caches student learning profiles for personalized lesson delivery. What is the recommended approach?",
+    "options": {
+      "A": "Send the entire conversation history with every request",
+      "B": "Use progressive summarization and semantic chunking with relevance scoring",
+      "C": "Discard all context after each turn",
+      "D": "Store context in client-side cookies"
+    },
+    "correctAnswer": "B",
+    "explanation": "Efficient context management uses summarization and chunking rather than brute-force history. Backoff and circuit breakers are essential for resilient systems."
+  },
+  {
+    "id": "deep_practice_s01_q29",
+    "mode": "deep_practice",
+    "set_number": 1,
+    "question_number": 29,
+    "domain": "context",
+    "domainName": "Context Management & Reliability",
+    "difficulty": "hard",
+    "question": "Razorpay's support system manages 200K+ daily conversations requiring efficient context summarization. What is the recommended approach?",
+    "options": {
+      "A": "Ignore rate limits and send requests as fast as possible",
+      "B": "Implement exponential backoff with jitter and circuit breaker patterns",
+      "C": "Use a single retry without delay",
+      "D": "Block all requests when one fails"
+    },
+    "correctAnswer": "B",
+    "explanation": "Efficient context management uses summarization and chunking rather than brute-force history. Backoff and circuit breakers are essential for resilient systems."
+  },
+  {
+    "id": "deep_practice_s01_q30",
+    "mode": "deep_practice",
+    "set_number": 1,
+    "question_number": 30,
+    "domain": "context",
+    "domainName": "Context Management & Reliability",
+    "difficulty": "easy",
+    "question": "Swiggy's order history system uses RAG to provide personalized cuisine recommendations. What is the recommended approach?",
+    "options": {
+      "A": "Send the entire conversation history with every request",
+      "B": "Use progressive summarization and semantic chunking with relevance scoring",
+      "C": "Discard all context after each turn",
+      "D": "Store context in client-side cookies"
+    },
+    "correctAnswer": "B",
+    "explanation": "Efficient context management uses summarization and chunking rather than brute-force history. Backoff and circuit breakers are essential for resilient systems."
+  }
+]

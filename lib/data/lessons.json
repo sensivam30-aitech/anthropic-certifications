@@ -1,0 +1,682 @@
+[
+  {
+    "id": "lesson_01",
+    "domain": "agentic",
+    "title": "Introduction to Agentic AI",
+    "content": "Agentic AI represents a paradigm shift...",
+    "codeExamples": [],
+    "miniQuiz": [
+      {
+        "question": "Sample quiz question for Introduction to Agentic AI?",
+        "options": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "correctIndex": 0
+      }
+    ],
+    "order": 1
+  },
+  {
+    "id": "lesson_02",
+    "domain": "agentic",
+    "title": "Multi-Agent Orchestration",
+    "content": "When building complex systems, a single agent is rarely sufficient...",
+    "codeExamples": [],
+    "miniQuiz": [
+      {
+        "question": "Sample quiz question for Multi-Agent Orchestration?",
+        "options": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "correctIndex": 0
+      }
+    ],
+    "order": 2
+  },
+  {
+    "id": "lesson_03",
+    "domain": "agentic",
+    "title": "Agent Communication Patterns",
+    "content": "Agents can communicate via message passing, shared memory, or event buses...",
+    "codeExamples": [],
+    "miniQuiz": [
+      {
+        "question": "Sample quiz question for Agent Communication Patterns?",
+        "options": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "correctIndex": 0
+      }
+    ],
+    "order": 3
+  },
+  {
+    "id": "lesson_04",
+    "domain": "agentic",
+    "title": "State Management in Agents",
+    "content": "Maintaining state across agent interactions is critical...",
+    "codeExamples": [],
+    "miniQuiz": [
+      {
+        "question": "Sample quiz question for State Management in Agents?",
+        "options": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "correctIndex": 0
+      }
+    ],
+    "order": 4
+  },
+  {
+    "id": "lesson_05",
+    "domain": "agentic",
+    "title": "Error Handling & Recovery",
+    "content": "Production agentic systems must handle failures gracefully...",
+    "codeExamples": [],
+    "miniQuiz": [
+      {
+        "question": "Sample quiz question for Error Handling & Recovery?",
+        "options": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "correctIndex": 0
+      }
+    ],
+    "order": 5
+  },
+  {
+    "id": "lesson_06",
+    "domain": "agentic",
+    "title": "Tool Use Patterns",
+    "content": "Agents leverage tools to extend their capabilities beyond text generation...",
+    "codeExamples": [],
+    "miniQuiz": [
+      {
+        "question": "Sample quiz question for Tool Use Patterns?",
+        "options": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "correctIndex": 0
+      }
+    ],
+    "order": 6
+  },
+  {
+    "id": "lesson_07",
+    "domain": "agentic",
+    "title": "Human-in-the-Loop Design",
+    "content": "Not all decisions should be automated. Human oversight...",
+    "codeExamples": [],
+    "miniQuiz": [
+      {
+        "question": "Sample quiz question for Human-in-the-Loop Design?",
+        "options": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "correctIndex": 0
+      }
+    ],
+    "order": 7
+  },
+  {
+    "id": "lesson_08",
+    "domain": "agentic",
+    "title": "Performance Monitoring",
+    "content": "Observability in agentic systems requires specialized metrics...",
+    "codeExamples": [],
+    "miniQuiz": [
+      {
+        "question": "Sample quiz question for Performance Monitoring?",
+        "options": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "correctIndex": 0
+      }
+    ],
+    "order": 8
+  },
+  {
+    "id": "lesson_09",
+    "domain": "claude_code",
+    "title": "Claude Code Overview",
+    "content": "Claude Code is Anthropic's CLI tool for AI-assisted development...",
+    "codeExamples": [],
+    "miniQuiz": [
+      {
+        "question": "Sample quiz question for Claude Code Overview?",
+        "options": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "correctIndex": 0
+      }
+    ],
+    "order": 9
+  },
+  {
+    "id": "lesson_10",
+    "domain": "claude_code",
+    "title": "CLAUDE.md Configuration",
+    "content": "The CLAUDE.md file defines project-specific instructions...",
+    "codeExamples": [],
+    "miniQuiz": [
+      {
+        "question": "Sample quiz question for CLAUDE.md Configuration?",
+        "options": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "correctIndex": 0
+      }
+    ],
+    "order": 10
+  },
+  {
+    "id": "lesson_11",
+    "domain": "claude_code",
+    "title": "Plan Mode & Execution",
+    "content": "Claude Code's plan mode allows for structured task decomposition...",
+    "codeExamples": [],
+    "miniQuiz": [
+      {
+        "question": "Sample quiz question for Plan Mode & Execution?",
+        "options": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "correctIndex": 0
+      }
+    ],
+    "order": 11
+  },
+  {
+    "id": "lesson_12",
+    "domain": "claude_code",
+    "title": "Skills & Slash Commands",
+    "content": "Custom skills extend Claude Code with domain-specific capabilities...",
+    "codeExamples": [],
+    "miniQuiz": [
+      {
+        "question": "Sample quiz question for Skills & Slash Commands?",
+        "options": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "correctIndex": 0
+      }
+    ],
+    "order": 12
+  },
+  {
+    "id": "lesson_13",
+    "domain": "claude_code",
+    "title": "Git Integration",
+    "content": "Claude Code integrates deeply with Git workflows...",
+    "codeExamples": [],
+    "miniQuiz": [
+      {
+        "question": "Sample quiz question for Git Integration?",
+        "options": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "correctIndex": 0
+      }
+    ],
+    "order": 13
+  },
+  {
+    "id": "lesson_14",
+    "domain": "claude_code",
+    "title": "CI/CD Pipeline Integration",
+    "content": "Automating Claude Code in CI/CD requires careful configuration...",
+    "codeExamples": [],
+    "miniQuiz": [
+      {
+        "question": "Sample quiz question for CI/CD Pipeline Integration?",
+        "options": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "correctIndex": 0
+      }
+    ],
+    "order": 14
+  },
+  {
+    "id": "lesson_15",
+    "domain": "prompting",
+    "title": "Prompt Engineering Fundamentals",
+    "content": "Effective prompting is the foundation of reliable AI systems...",
+    "codeExamples": [],
+    "miniQuiz": [
+      {
+        "question": "Sample quiz question for Prompt Engineering Fundamentals?",
+        "options": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "correctIndex": 0
+      }
+    ],
+    "order": 15
+  },
+  {
+    "id": "lesson_16",
+    "domain": "prompting",
+    "title": "The PRECISE Framework",
+    "content": "PRECISE: Purpose, Role, Examples, Constraints, Iteration, Evaluation...",
+    "codeExamples": [],
+    "miniQuiz": [
+      {
+        "question": "Sample quiz question for The PRECISE Framework?",
+        "options": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "correctIndex": 0
+      }
+    ],
+    "order": 16
+  },
+  {
+    "id": "lesson_17",
+    "domain": "prompting",
+    "title": "Structured Output Techniques",
+    "content": "JSON mode, function calling, and schema validation...",
+    "codeExamples": [],
+    "miniQuiz": [
+      {
+        "question": "Sample quiz question for Structured Output Techniques?",
+        "options": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "correctIndex": 0
+      }
+    ],
+    "order": 17
+  },
+  {
+    "id": "lesson_18",
+    "domain": "prompting",
+    "title": "Few-Shot Prompting",
+    "content": "Providing examples within the prompt improves model performance...",
+    "codeExamples": [],
+    "miniQuiz": [
+      {
+        "question": "Sample quiz question for Few-Shot Prompting?",
+        "options": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "correctIndex": 0
+      }
+    ],
+    "order": 18
+  },
+  {
+    "id": "lesson_19",
+    "domain": "prompting",
+    "title": "Chain-of-Thought Prompting",
+    "content": "Encouraging step-by-step reasoning improves accuracy...",
+    "codeExamples": [],
+    "miniQuiz": [
+      {
+        "question": "Sample quiz question for Chain-of-Thought Prompting?",
+        "options": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "correctIndex": 0
+      }
+    ],
+    "order": 19
+  },
+  {
+    "id": "lesson_20",
+    "domain": "prompting",
+    "title": "Validation & Retry Patterns",
+    "content": "Always validate model outputs and implement retry logic...",
+    "codeExamples": [],
+    "miniQuiz": [
+      {
+        "question": "Sample quiz question for Validation & Retry Patterns?",
+        "options": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "correctIndex": 0
+      }
+    ],
+    "order": 20
+  },
+  {
+    "id": "lesson_21",
+    "domain": "tools_mcp",
+    "title": "Model Context Protocol Basics",
+    "content": "MCP standardizes how applications provide context to LLMs...",
+    "codeExamples": [],
+    "miniQuiz": [
+      {
+        "question": "Sample quiz question for Model Context Protocol Basics?",
+        "options": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "correctIndex": 0
+      }
+    ],
+    "order": 21
+  },
+  {
+    "id": "lesson_22",
+    "domain": "tools_mcp",
+    "title": "MCP Server Architecture",
+    "content": "An MCP server exposes resources, prompts, and tools...",
+    "codeExamples": [],
+    "miniQuiz": [
+      {
+        "question": "Sample quiz question for MCP Server Architecture?",
+        "options": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "correctIndex": 0
+      }
+    ],
+    "order": 22
+  },
+  {
+    "id": "lesson_23",
+    "domain": "tools_mcp",
+    "title": "Tool Schema Design",
+    "content": "Well-designed tool schemas are self-documenting and type-safe...",
+    "codeExamples": [],
+    "miniQuiz": [
+      {
+        "question": "Sample quiz question for Tool Schema Design?",
+        "options": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "correctIndex": 0
+      }
+    ],
+    "order": 23
+  },
+  {
+    "id": "lesson_24",
+    "domain": "tools_mcp",
+    "title": "Error Handling in MCP",
+    "content": "MCP tools must handle errors and communicate them clearly...",
+    "codeExamples": [],
+    "miniQuiz": [
+      {
+        "question": "Sample quiz question for Error Handling in MCP?",
+        "options": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "correctIndex": 0
+      }
+    ],
+    "order": 24
+  },
+  {
+    "id": "lesson_25",
+    "domain": "tools_mcp",
+    "title": "Transport Mechanisms",
+    "content": "MCP supports stdio, HTTP, and streamable HTTP transports...",
+    "codeExamples": [],
+    "miniQuiz": [
+      {
+        "question": "Sample quiz question for Transport Mechanisms?",
+        "options": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "correctIndex": 0
+      }
+    ],
+    "order": 25
+  },
+  {
+    "id": "lesson_26",
+    "domain": "tools_mcp",
+    "title": "Security Considerations",
+    "content": "Tool execution must be sandboxed and audited...",
+    "codeExamples": [],
+    "miniQuiz": [
+      {
+        "question": "Sample quiz question for Security Considerations?",
+        "options": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "correctIndex": 0
+      }
+    ],
+    "order": 26
+  },
+  {
+    "id": "lesson_27",
+    "domain": "tools_mcp",
+    "title": "Idempotency Patterns",
+    "content": "Tools should be idempotent to prevent duplicate side effects...",
+    "codeExamples": [],
+    "miniQuiz": [
+      {
+        "question": "Sample quiz question for Idempotency Patterns?",
+        "options": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "correctIndex": 0
+      }
+    ],
+    "order": 27
+  },
+  {
+    "id": "lesson_28",
+    "domain": "context",
+    "title": "Context Window Management",
+    "content": "Claude's 200K context window requires strategic management...",
+    "codeExamples": [],
+    "miniQuiz": [
+      {
+        "question": "Sample quiz question for Context Window Management?",
+        "options": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "correctIndex": 0
+      }
+    ],
+    "order": 28
+  },
+  {
+    "id": "lesson_29",
+    "domain": "context",
+    "title": "Chunking Strategies",
+    "content": "Breaking large documents into semantically meaningful chunks...",
+    "codeExamples": [],
+    "miniQuiz": [
+      {
+        "question": "Sample quiz question for Chunking Strategies?",
+        "options": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "correctIndex": 0
+      }
+    ],
+    "order": 29
+  },
+  {
+    "id": "lesson_30",
+    "domain": "context",
+    "title": "RAG Implementation",
+    "content": "Retrieval-Augmented Generation enhances Claude with external knowledge...",
+    "codeExamples": [],
+    "miniQuiz": [
+      {
+        "question": "Sample quiz question for RAG Implementation?",
+        "options": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "correctIndex": 0
+      }
+    ],
+    "order": 30
+  },
+  {
+    "id": "lesson_31",
+    "domain": "context",
+    "title": "Progressive Summarization",
+    "content": "Summarize conversation history to preserve context...",
+    "codeExamples": [],
+    "miniQuiz": [
+      {
+        "question": "Sample quiz question for Progressive Summarization?",
+        "options": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "correctIndex": 0
+      }
+    ],
+    "order": 31
+  },
+  {
+    "id": "lesson_32",
+    "domain": "context",
+    "title": "Caching & Memoization",
+    "content": "Cache expensive computations to reduce latency and cost...",
+    "codeExamples": [],
+    "miniQuiz": [
+      {
+        "question": "Sample quiz question for Caching & Memoization?",
+        "options": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "correctIndex": 0
+      }
+    ],
+    "order": 32
+  },
+  {
+    "id": "lesson_33",
+    "domain": "context",
+    "title": "Backoff & Rate Limiting",
+    "content": "Implement exponential backoff when hitting API limits...",
+    "codeExamples": [],
+    "miniQuiz": [
+      {
+        "question": "Sample quiz question for Backoff & Rate Limiting?",
+        "options": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "correctIndex": 0
+      }
+    ],
+    "order": 33
+  },
+  {
+    "id": "lesson_34",
+    "domain": "context",
+    "title": "Reliability Patterns",
+    "content": "Circuit breakers, bulkheads, and retries for resilient systems...",
+    "codeExamples": [],
+    "miniQuiz": [
+      {
+        "question": "Sample quiz question for Reliability Patterns?",
+        "options": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "correctIndex": 0
+      }
+    ],
+    "order": 34
+  }
+]

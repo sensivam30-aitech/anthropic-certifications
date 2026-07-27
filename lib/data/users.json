@@ -1,0 +1,20 @@
+[
+  {
+    "id": "user_demo_1",
+    "name": "Rahul Sharma",
+    "email": "rahul@example.com",
+    "password": "$2b$10$demo_hash_rahul",
+    "tier": "paid",
+    "isAdmin": false,
+    "createdAt": 1720000000000
+  },
+  {
+    "id": "user_demo_2",
+    "name": "Priya Patel",
+    "email": "priya@example.com",
+    "password": "$2b$10$demo_hash_priya",
+    "tier": "paid",
+    "isAdmin": false,
+    "createdAt": 1720000000000
+  }
+]

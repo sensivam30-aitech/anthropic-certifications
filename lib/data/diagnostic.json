@@ -1,0 +1,377 @@
+[
+  {
+    "id": "diag_q01",
+    "domain": "agentic",
+    "domainName": "Agentic Architecture & Orchestration",
+    "difficulty": "medium",
+    "question": "Diagnostic Question 1: In a scenario involving Agentic Architecture & Orchestration, what is the best approach to handle production deployment?",
+    "options": {
+      "A": "Deploy directly to production without testing",
+      "B": "Use staging environment with automated tests and gradual rollout",
+      "C": "Manual deployment during peak hours",
+      "D": "Skip monitoring and rely on user reports"
+    },
+    "correctAnswer": "B",
+    "explanation": "Production deployments should always use staging environments, automated testing, and gradual rollouts to minimize risk."
+  },
+  {
+    "id": "diag_q02",
+    "domain": "claude_code",
+    "domainName": "Claude Code Configuration & Workflows",
+    "difficulty": "medium",
+    "question": "Diagnostic Question 2: In a scenario involving Claude Code Configuration & Workflows, what is the best approach to handle production deployment?",
+    "options": {
+      "A": "Deploy directly to production without testing",
+      "B": "Use staging environment with automated tests and gradual rollout",
+      "C": "Manual deployment during peak hours",
+      "D": "Skip monitoring and rely on user reports"
+    },
+    "correctAnswer": "B",
+    "explanation": "Production deployments should always use staging environments, automated testing, and gradual rollouts to minimize risk."
+  },
+  {
+    "id": "diag_q03",
+    "domain": "prompting",
+    "domainName": "Prompt Engineering & Structured Output",
+    "difficulty": "medium",
+    "question": "Diagnostic Question 3: In a scenario involving Prompt Engineering & Structured Output, what is the best approach to handle production deployment?",
+    "options": {
+      "A": "Deploy directly to production without testing",
+      "B": "Use staging environment with automated tests and gradual rollout",
+      "C": "Manual deployment during peak hours",
+      "D": "Skip monitoring and rely on user reports"
+    },
+    "correctAnswer": "B",
+    "explanation": "Production deployments should always use staging environments, automated testing, and gradual rollouts to minimize risk."
+  },
+  {
+    "id": "diag_q04",
+    "domain": "tools_mcp",
+    "domainName": "Tool Design & MCP Integration",
+    "difficulty": "medium",
+    "question": "Diagnostic Question 4: In a scenario involving Tool Design & MCP Integration, what is the best approach to handle production deployment?",
+    "options": {
+      "A": "Deploy directly to production without testing",
+      "B": "Use staging environment with automated tests and gradual rollout",
+      "C": "Manual deployment during peak hours",
+      "D": "Skip monitoring and rely on user reports"
+    },
+    "correctAnswer": "B",
+    "explanation": "Production deployments should always use staging environments, automated testing, and gradual rollouts to minimize risk."
+  },
+  {
+    "id": "diag_q05",
+    "domain": "context",
+    "domainName": "Context Management & Reliability",
+    "difficulty": "medium",
+    "question": "Diagnostic Question 5: In a scenario involving Context Management & Reliability, what is the best approach to handle production deployment?",
+    "options": {
+      "A": "Deploy directly to production without testing",
+      "B": "Use staging environment with automated tests and gradual rollout",
+      "C": "Manual deployment during peak hours",
+      "D": "Skip monitoring and rely on user reports"
+    },
+    "correctAnswer": "B",
+    "explanation": "Production deployments should always use staging environments, automated testing, and gradual rollouts to minimize risk."
+  },
+  {
+    "id": "diag_q06",
+    "domain": "agentic",
+    "domainName": "Agentic Architecture & Orchestration",
+    "difficulty": "medium",
+    "question": "Diagnostic Question 6: In a scenario involving Agentic Architecture & Orchestration, what is the best approach to handle production deployment?",
+    "options": {
+      "A": "Deploy directly to production without testing",
+      "B": "Use staging environment with automated tests and gradual rollout",
+      "C": "Manual deployment during peak hours",
+      "D": "Skip monitoring and rely on user reports"
+    },
+    "correctAnswer": "B",
+    "explanation": "Production deployments should always use staging environments, automated testing, and gradual rollouts to minimize risk."
+  },
+  {
+    "id": "diag_q07",
+    "domain": "claude_code",
+    "domainName": "Claude Code Configuration & Workflows",
+    "difficulty": "medium",
+    "question": "Diagnostic Question 7: In a scenario involving Claude Code Configuration & Workflows, what is the best approach to handle production deployment?",
+    "options": {
+      "A": "Deploy directly to production without testing",
+      "B": "Use staging environment with automated tests and gradual rollout",
+      "C": "Manual deployment during peak hours",
+      "D": "Skip monitoring and rely on user reports"
+    },
+    "correctAnswer": "B",
+    "explanation": "Production deployments should always use staging environments, automated testing, and gradual rollouts to minimize risk."
+  },
+  {
+    "id": "diag_q08",
+    "domain": "prompting",
+    "domainName": "Prompt Engineering & Structured Output",
+    "difficulty": "medium",
+    "question": "Diagnostic Question 8: In a scenario involving Prompt Engineering & Structured Output, what is the best approach to handle production deployment?",
+    "options": {
+      "A": "Deploy directly to production without testing",
+      "B": "Use staging environment with automated tests and gradual rollout",
+      "C": "Manual deployment during peak hours",
+      "D": "Skip monitoring and rely on user reports"
+    },
+    "correctAnswer": "B",
+    "explanation": "Production deployments should always use staging environments, automated testing, and gradual rollouts to minimize risk."
+  },
+  {
+    "id": "diag_q09",
+    "domain": "tools_mcp",
+    "domainName": "Tool Design & MCP Integration",
+    "difficulty": "medium",
+    "question": "Diagnostic Question 9: In a scenario involving Tool Design & MCP Integration, what is the best approach to handle production deployment?",
+    "options": {
+      "A": "Deploy directly to production without testing",
+      "B": "Use staging environment with automated tests and gradual rollout",
+      "C": "Manual deployment during peak hours",
+      "D": "Skip monitoring and rely on user reports"
+    },
+    "correctAnswer": "B",
+    "explanation": "Production deployments should always use staging environments, automated testing, and gradual rollouts to minimize risk."
+  },
+  {
+    "id": "diag_q10",
+    "domain": "context",
+    "domainName": "Context Management & Reliability",
+    "difficulty": "medium",
+    "question": "Diagnostic Question 10: In a scenario involving Context Management & Reliability, what is the best approach to handle production deployment?",
+    "options": {
+      "A": "Deploy directly to production without testing",
+      "B": "Use staging environment with automated tests and gradual rollout",
+      "C": "Manual deployment during peak hours",
+      "D": "Skip monitoring and rely on user reports"
+    },
+    "correctAnswer": "B",
+    "explanation": "Production deployments should always use staging environments, automated testing, and gradual rollouts to minimize risk."
+  },
+  {
+    "id": "diag_q11",
+    "domain": "agentic",
+    "domainName": "Agentic Architecture & Orchestration",
+    "difficulty": "medium",
+    "question": "Diagnostic Question 11: In a scenario involving Agentic Architecture & Orchestration, what is the best approach to handle production deployment?",
+    "options": {
+      "A": "Deploy directly to production without testing",
+      "B": "Use staging environment with automated tests and gradual rollout",
+      "C": "Manual deployment during peak hours",
+      "D": "Skip monitoring and rely on user reports"
+    },
+    "correctAnswer": "B",
+    "explanation": "Production deployments should always use staging environments, automated testing, and gradual rollouts to minimize risk."
+  },
+  {
+    "id": "diag_q12",
+    "domain": "claude_code",
+    "domainName": "Claude Code Configuration & Workflows",
+    "difficulty": "medium",
+    "question": "Diagnostic Question 12: In a scenario involving Claude Code Configuration & Workflows, what is the best approach to handle production deployment?",
+    "options": {
+      "A": "Deploy directly to production without testing",
+      "B": "Use staging environment with automated tests and gradual rollout",
+      "C": "Manual deployment during peak hours",
+      "D": "Skip monitoring and rely on user reports"
+    },
+    "correctAnswer": "B",
+    "explanation": "Production deployments should always use staging environments, automated testing, and gradual rollouts to minimize risk."
+  },
+  {
+    "id": "diag_q13",
+    "domain": "prompting",
+    "domainName": "Prompt Engineering & Structured Output",
+    "difficulty": "medium",
+    "question": "Diagnostic Question 13: In a scenario involving Prompt Engineering & Structured Output, what is the best approach to handle production deployment?",
+    "options": {
+      "A": "Deploy directly to production without testing",
+      "B": "Use staging environment with automated tests and gradual rollout",
+      "C": "Manual deployment during peak hours",
+      "D": "Skip monitoring and rely on user reports"
+    },
+    "correctAnswer": "B",
+    "explanation": "Production deployments should always use staging environments, automated testing, and gradual rollouts to minimize risk."
+  },
+  {
+    "id": "diag_q14",
+    "domain": "tools_mcp",
+    "domainName": "Tool Design & MCP Integration",
+    "difficulty": "medium",
+    "question": "Diagnostic Question 14: In a scenario involving Tool Design & MCP Integration, what is the best approach to handle production deployment?",
+    "options": {
+      "A": "Deploy directly to production without testing",
+      "B": "Use staging environment with automated tests and gradual rollout",
+      "C": "Manual deployment during peak hours",
+      "D": "Skip monitoring and rely on user reports"
+    },
+    "correctAnswer": "B",
+    "explanation": "Production deployments should always use staging environments, automated testing, and gradual rollouts to minimize risk."
+  },
+  {
+    "id": "diag_q15",
+    "domain": "context",
+    "domainName": "Context Management & Reliability",
+    "difficulty": "medium",
+    "question": "Diagnostic Question 15: In a scenario involving Context Management & Reliability, what is the best approach to handle production deployment?",
+    "options": {
+      "A": "Deploy directly to production without testing",
+      "B": "Use staging environment with automated tests and gradual rollout",
+      "C": "Manual deployment during peak hours",
+      "D": "Skip monitoring and rely on user reports"
+    },
+    "correctAnswer": "B",
+    "explanation": "Production deployments should always use staging environments, automated testing, and gradual rollouts to minimize risk."
+  },
+  {
+    "id": "diag_q16",
+    "domain": "agentic",
+    "domainName": "Agentic Architecture & Orchestration",
+    "difficulty": "medium",
+    "question": "Diagnostic Question 16: In a scenario involving Agentic Architecture & Orchestration, what is the best approach to handle production deployment?",
+    "options": {
+      "A": "Deploy directly to production without testing",
+      "B": "Use staging environment with automated tests and gradual rollout",
+      "C": "Manual deployment during peak hours",
+      "D": "Skip monitoring and rely on user reports"
+    },
+    "correctAnswer": "B",
+    "explanation": "Production deployments should always use staging environments, automated testing, and gradual rollouts to minimize risk."
+  },
+  {
+    "id": "diag_q17",
+    "domain": "claude_code",
+    "domainName": "Claude Code Configuration & Workflows",
+    "difficulty": "medium",
+    "question": "Diagnostic Question 17: In a scenario involving Claude Code Configuration & Workflows, what is the best approach to handle production deployment?",
+    "options": {
+      "A": "Deploy directly to production without testing",
+      "B": "Use staging environment with automated tests and gradual rollout",
+      "C": "Manual deployment during peak hours",
+      "D": "Skip monitoring and rely on user reports"
+    },
+    "correctAnswer": "B",
+    "explanation": "Production deployments should always use staging environments, automated testing, and gradual rollouts to minimize risk."
+  },
+  {
+    "id": "diag_q18",
+    "domain": "prompting",
+    "domainName": "Prompt Engineering & Structured Output",
+    "difficulty": "medium",
+    "question": "Diagnostic Question 18: In a scenario involving Prompt Engineering & Structured Output, what is the best approach to handle production deployment?",
+    "options": {
+      "A": "Deploy directly to production without testing",
+      "B": "Use staging environment with automated tests and gradual rollout",
+      "C": "Manual deployment during peak hours",
+      "D": "Skip monitoring and rely on user reports"
+    },
+    "correctAnswer": "B",
+    "explanation": "Production deployments should always use staging environments, automated testing, and gradual rollouts to minimize risk."
+  },
+  {
+    "id": "diag_q19",
+    "domain": "tools_mcp",
+    "domainName": "Tool Design & MCP Integration",
+    "difficulty": "medium",
+    "question": "Diagnostic Question 19: In a scenario involving Tool Design & MCP Integration, what is the best approach to handle production deployment?",
+    "options": {
+      "A": "Deploy directly to production without testing",
+      "B": "Use staging environment with automated tests and gradual rollout",
+      "C": "Manual deployment during peak hours",
+      "D": "Skip monitoring and rely on user reports"
+    },
+    "correctAnswer": "B",
+    "explanation": "Production deployments should always use staging environments, automated testing, and gradual rollouts to minimize risk."
+  },
+  {
+    "id": "diag_q20",
+    "domain": "context",
+    "domainName": "Context Management & Reliability",
+    "difficulty": "medium",
+    "question": "Diagnostic Question 20: In a scenario involving Context Management & Reliability, what is the best approach to handle production deployment?",
+    "options": {
+      "A": "Deploy directly to production without testing",
+      "B": "Use staging environment with automated tests and gradual rollout",
+      "C": "Manual deployment during peak hours",
+      "D": "Skip monitoring and rely on user reports"
+    },
+    "correctAnswer": "B",
+    "explanation": "Production deployments should always use staging environments, automated testing, and gradual rollouts to minimize risk."
+  },
+  {
+    "id": "diag_q21",
+    "domain": "agentic",
+    "domainName": "Agentic Architecture & Orchestration",
+    "difficulty": "medium",
+    "question": "Diagnostic Question 21: In a scenario involving Agentic Architecture & Orchestration, what is the best approach to handle production deployment?",
+    "options": {
+      "A": "Deploy directly to production without testing",
+      "B": "Use staging environment with automated tests and gradual rollout",
+      "C": "Manual deployment during peak hours",
+      "D": "Skip monitoring and rely on user reports"
+    },
+    "correctAnswer": "B",
+    "explanation": "Production deployments should always use staging environments, automated testing, and gradual rollouts to minimize risk."
+  },
+  {
+    "id": "diag_q22",
+    "domain": "claude_code",
+    "domainName": "Claude Code Configuration & Workflows",
+    "difficulty": "medium",
+    "question": "Diagnostic Question 22: In a scenario involving Claude Code Configuration & Workflows, what is the best approach to handle production deployment?",
+    "options": {
+      "A": "Deploy directly to production without testing",
+      "B": "Use staging environment with automated tests and gradual rollout",
+      "C": "Manual deployment during peak hours",
+      "D": "Skip monitoring and rely on user reports"
+    },
+    "correctAnswer": "B",
+    "explanation": "Production deployments should always use staging environments, automated testing, and gradual rollouts to minimize risk."
+  },
+  {
+    "id": "diag_q23",
+    "domain": "prompting",
+    "domainName": "Prompt Engineering & Structured Output",
+    "difficulty": "medium",
+    "question": "Diagnostic Question 23: In a scenario involving Prompt Engineering & Structured Output, what is the best approach to handle production deployment?",
+    "options": {
+      "A": "Deploy directly to production without testing",
+      "B": "Use staging environment with automated tests and gradual rollout",
+      "C": "Manual deployment during peak hours",
+      "D": "Skip monitoring and rely on user reports"
+    },
+    "correctAnswer": "B",
+    "explanation": "Production deployments should always use staging environments, automated testing, and gradual rollouts to minimize risk."
+  },
+  {
+    "id": "diag_q24",
+    "domain": "tools_mcp",
+    "domainName": "Tool Design & MCP Integration",
+    "difficulty": "medium",
+    "question": "Diagnostic Question 24: In a scenario involving Tool Design & MCP Integration, what is the best approach to handle production deployment?",
+    "options": {
+      "A": "Deploy directly to production without testing",
+      "B": "Use staging environment with automated tests and gradual rollout",
+      "C": "Manual deployment during peak hours",
+      "D": "Skip monitoring and rely on user reports"
+    },
+    "correctAnswer": "B",
+    "explanation": "Production deployments should always use staging environments, automated testing, and gradual rollouts to minimize risk."
+  },
+  {
+    "id": "diag_q25",
+    "domain": "context",
+    "domainName": "Context Management & Reliability",
+    "difficulty": "medium",
+    "question": "Diagnostic Question 25: In a scenario involving Context Management & Reliability, what is the best approach to handle production deployment?",
+    "options": {
+      "A": "Deploy directly to production without testing",
+      "B": "Use staging environment with automated tests and gradual rollout",
+      "C": "Manual deployment during peak hours",
+      "D": "Skip monitoring and rely on user reports"
+    },
+    "correctAnswer": "B",
+    "explanation": "Production deployments should always use staging environments, automated testing, and gradual rollouts to minimize risk."
+  }
+]

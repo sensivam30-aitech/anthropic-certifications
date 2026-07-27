@@ -1,0 +1,362 @@
+[
+  {
+    "id": "focused_s03_q01",
+    "mode": "focused",
+    "set_number": 3,
+    "question_number": 1,
+    "domain": "prompting",
+    "domainName": "Prompt Engineering & Structured Output",
+    "difficulty": "medium",
+    "question": "Air India's chatbot team implements chain-of-thought prompting for complex itinerary changes. What is the recommended approach?",
+    "options": {
+      "A": "Use natural language without any structure",
+      "B": "Provide few-shot examples with consistent formatting and explicit output schemas",
+      "C": "Change prompt style for every request",
+      "D": "Avoid giving examples to prevent bias"
+    },
+    "correctAnswer": "B",
+    "explanation": "The PRECISE framework and structured output with validation are core CCA-F concepts. Few-shot examples improve reliability when formatted consistently."
+  },
+  {
+    "id": "focused_s03_q02",
+    "mode": "focused",
+    "set_number": 3,
+    "question_number": 2,
+    "domain": "prompting",
+    "domainName": "Prompt Engineering & Structured Output",
+    "difficulty": "hard",
+    "question": "Zerodha's research team uses structured output to generate daily market summary reports. What is the recommended approach?",
+    "options": {
+      "A": "Write vague prompts and let the model infer intent",
+      "B": "Use the PRECISE framework with explicit schema definitions and validation",
+      "C": "Always use zero-shot prompting for consistency",
+      "D": "Ignore output validation and trust the model completely"
+    },
+    "correctAnswer": "B",
+    "explanation": "The PRECISE framework and structured output with validation are core CCA-F concepts. Few-shot examples improve reliability when formatted consistently."
+  },
+  {
+    "id": "focused_s03_q03",
+    "mode": "focused",
+    "set_number": 3,
+    "question_number": 3,
+    "domain": "prompting",
+    "domainName": "Prompt Engineering & Structured Output",
+    "difficulty": "easy",
+    "question": "HCLTech consultants design validation-retry patterns for client requirement extraction prompts. What is the recommended approach?",
+    "options": {
+      "A": "Use natural language without any structure",
+      "B": "Provide few-shot examples with consistent formatting and explicit output schemas",
+      "C": "Change prompt style for every request",
+      "D": "Avoid giving examples to prevent bias"
+    },
+    "correctAnswer": "B",
+    "explanation": "The PRECISE framework and structured output with validation are core CCA-F concepts. Few-shot examples improve reliability when formatted consistently."
+  },
+  {
+    "id": "focused_s03_q04",
+    "mode": "focused",
+    "set_number": 3,
+    "question_number": 4,
+    "domain": "prompting",
+    "domainName": "Prompt Engineering & Structured Output",
+    "difficulty": "medium",
+    "question": "Ola's support team creates few-shot examples for handling refund request classifications. What is the recommended approach?",
+    "options": {
+      "A": "Write vague prompts and let the model infer intent",
+      "B": "Use the PRECISE framework with explicit schema definitions and validation",
+      "C": "Always use zero-shot prompting for consistency",
+      "D": "Ignore output validation and trust the model completely"
+    },
+    "correctAnswer": "B",
+    "explanation": "The PRECISE framework and structured output with validation are core CCA-F concepts. Few-shot examples improve reliability when formatted consistently."
+  },
+  {
+    "id": "focused_s03_q05",
+    "mode": "focused",
+    "set_number": 3,
+    "question_number": 5,
+    "domain": "prompting",
+    "domainName": "Prompt Engineering & Structured Output",
+    "difficulty": "hard",
+    "question": "Digital Green's field workers use voice-to-text prompts for illiterate farmer interactions. What is the recommended approach?",
+    "options": {
+      "A": "Use natural language without any structure",
+      "B": "Provide few-shot examples with consistent formatting and explicit output schemas",
+      "C": "Change prompt style for every request",
+      "D": "Avoid giving examples to prevent bias"
+    },
+    "correctAnswer": "B",
+    "explanation": "The PRECISE framework and structured output with validation are core CCA-F concepts. Few-shot examples improve reliability when formatted consistently."
+  },
+  {
+    "id": "focused_s03_q06",
+    "mode": "focused",
+    "set_number": 3,
+    "question_number": 6,
+    "domain": "prompting",
+    "domainName": "Prompt Engineering & Structured Output",
+    "difficulty": "easy",
+    "question": "Pratham's assessment team designs prompts that generate age-appropriate math problems. What is the recommended approach?",
+    "options": {
+      "A": "Write vague prompts and let the model infer intent",
+      "B": "Use the PRECISE framework with explicit schema definitions and validation",
+      "C": "Always use zero-shot prompting for consistency",
+      "D": "Ignore output validation and trust the model completely"
+    },
+    "correctAnswer": "B",
+    "explanation": "The PRECISE framework and structured output with validation are core CCA-F concepts. Few-shot examples improve reliability when formatted consistently."
+  },
+  {
+    "id": "focused_s03_q07",
+    "mode": "focused",
+    "set_number": 3,
+    "question_number": 7,
+    "domain": "prompting",
+    "domainName": "Prompt Engineering & Structured Output",
+    "difficulty": "medium",
+    "question": "A data scientist at Razorpay needs structured JSON output from Claude for transaction categorization. What is the recommended approach?",
+    "options": {
+      "A": "Use natural language without any structure",
+      "B": "Provide few-shot examples with consistent formatting and explicit output schemas",
+      "C": "Change prompt style for every request",
+      "D": "Avoid giving examples to prevent bias"
+    },
+    "correctAnswer": "B",
+    "explanation": "The PRECISE framework and structured output with validation are core CCA-F concepts. Few-shot examples improve reliability when formatted consistently."
+  },
+  {
+    "id": "focused_s03_q08",
+    "mode": "focused",
+    "set_number": 3,
+    "question_number": 8,
+    "domain": "prompting",
+    "domainName": "Prompt Engineering & Structured Output",
+    "difficulty": "hard",
+    "question": "Swiggy's content team uses few-shot prompting to generate consistent restaurant descriptions. What is the recommended approach?",
+    "options": {
+      "A": "Write vague prompts and let the model infer intent",
+      "B": "Use the PRECISE framework with explicit schema definitions and validation",
+      "C": "Always use zero-shot prompting for consistency",
+      "D": "Ignore output validation and trust the model completely"
+    },
+    "correctAnswer": "B",
+    "explanation": "The PRECISE framework and structured output with validation are core CCA-F concepts. Few-shot examples improve reliability when formatted consistently."
+  },
+  {
+    "id": "focused_s03_q09",
+    "mode": "focused",
+    "set_number": 3,
+    "question_number": 9,
+    "domain": "prompting",
+    "domainName": "Prompt Engineering & Structured Output",
+    "difficulty": "easy",
+    "question": "CRED's marketing team applies the PRECISE framework for personalized credit card offer generation. What is the recommended approach?",
+    "options": {
+      "A": "Use natural language without any structure",
+      "B": "Provide few-shot examples with consistent formatting and explicit output schemas",
+      "C": "Change prompt style for every request",
+      "D": "Avoid giving examples to prevent bias"
+    },
+    "correctAnswer": "B",
+    "explanation": "The PRECISE framework and structured output with validation are core CCA-F concepts. Few-shot examples improve reliability when formatted consistently."
+  },
+  {
+    "id": "focused_s03_q10",
+    "mode": "focused",
+    "set_number": 3,
+    "question_number": 10,
+    "domain": "prompting",
+    "domainName": "Prompt Engineering & Structured Output",
+    "difficulty": "medium",
+    "question": "Sarvam AI engineers design prompts for multi-lingual sentiment analysis across 10 Indian languages. What is the recommended approach?",
+    "options": {
+      "A": "Write vague prompts and let the model infer intent",
+      "B": "Use the PRECISE framework with explicit schema definitions and validation",
+      "C": "Always use zero-shot prompting for consistency",
+      "D": "Ignore output validation and trust the model completely"
+    },
+    "correctAnswer": "B",
+    "explanation": "The PRECISE framework and structured output with validation are core CCA-F concepts. Few-shot examples improve reliability when formatted consistently."
+  },
+  {
+    "id": "focused_s03_q11",
+    "mode": "focused",
+    "set_number": 3,
+    "question_number": 11,
+    "domain": "prompting",
+    "domainName": "Prompt Engineering & Structured Output",
+    "difficulty": "hard",
+    "question": "Air India's chatbot team implements chain-of-thought prompting for complex itinerary changes. What is the recommended approach?",
+    "options": {
+      "A": "Use natural language without any structure",
+      "B": "Provide few-shot examples with consistent formatting and explicit output schemas",
+      "C": "Change prompt style for every request",
+      "D": "Avoid giving examples to prevent bias"
+    },
+    "correctAnswer": "B",
+    "explanation": "The PRECISE framework and structured output with validation are core CCA-F concepts. Few-shot examples improve reliability when formatted consistently."
+  },
+  {
+    "id": "focused_s03_q12",
+    "mode": "focused",
+    "set_number": 3,
+    "question_number": 12,
+    "domain": "prompting",
+    "domainName": "Prompt Engineering & Structured Output",
+    "difficulty": "easy",
+    "question": "Zerodha's research team uses structured output to generate daily market summary reports. What is the recommended approach?",
+    "options": {
+      "A": "Write vague prompts and let the model infer intent",
+      "B": "Use the PRECISE framework with explicit schema definitions and validation",
+      "C": "Always use zero-shot prompting for consistency",
+      "D": "Ignore output validation and trust the model completely"
+    },
+    "correctAnswer": "B",
+    "explanation": "The PRECISE framework and structured output with validation are core CCA-F concepts. Few-shot examples improve reliability when formatted consistently."
+  },
+  {
+    "id": "focused_s03_q13",
+    "mode": "focused",
+    "set_number": 3,
+    "question_number": 13,
+    "domain": "prompting",
+    "domainName": "Prompt Engineering & Structured Output",
+    "difficulty": "medium",
+    "question": "HCLTech consultants design validation-retry patterns for client requirement extraction prompts. What is the recommended approach?",
+    "options": {
+      "A": "Use natural language without any structure",
+      "B": "Provide few-shot examples with consistent formatting and explicit output schemas",
+      "C": "Change prompt style for every request",
+      "D": "Avoid giving examples to prevent bias"
+    },
+    "correctAnswer": "B",
+    "explanation": "The PRECISE framework and structured output with validation are core CCA-F concepts. Few-shot examples improve reliability when formatted consistently."
+  },
+  {
+    "id": "focused_s03_q14",
+    "mode": "focused",
+    "set_number": 3,
+    "question_number": 14,
+    "domain": "prompting",
+    "domainName": "Prompt Engineering & Structured Output",
+    "difficulty": "hard",
+    "question": "Ola's support team creates few-shot examples for handling refund request classifications. What is the recommended approach?",
+    "options": {
+      "A": "Write vague prompts and let the model infer intent",
+      "B": "Use the PRECISE framework with explicit schema definitions and validation",
+      "C": "Always use zero-shot prompting for consistency",
+      "D": "Ignore output validation and trust the model completely"
+    },
+    "correctAnswer": "B",
+    "explanation": "The PRECISE framework and structured output with validation are core CCA-F concepts. Few-shot examples improve reliability when formatted consistently."
+  },
+  {
+    "id": "focused_s03_q15",
+    "mode": "focused",
+    "set_number": 3,
+    "question_number": 15,
+    "domain": "prompting",
+    "domainName": "Prompt Engineering & Structured Output",
+    "difficulty": "easy",
+    "question": "Digital Green's field workers use voice-to-text prompts for illiterate farmer interactions. What is the recommended approach?",
+    "options": {
+      "A": "Use natural language without any structure",
+      "B": "Provide few-shot examples with consistent formatting and explicit output schemas",
+      "C": "Change prompt style for every request",
+      "D": "Avoid giving examples to prevent bias"
+    },
+    "correctAnswer": "B",
+    "explanation": "The PRECISE framework and structured output with validation are core CCA-F concepts. Few-shot examples improve reliability when formatted consistently."
+  },
+  {
+    "id": "focused_s03_q16",
+    "mode": "focused",
+    "set_number": 3,
+    "question_number": 16,
+    "domain": "prompting",
+    "domainName": "Prompt Engineering & Structured Output",
+    "difficulty": "medium",
+    "question": "Pratham's assessment team designs prompts that generate age-appropriate math problems. What is the recommended approach?",
+    "options": {
+      "A": "Write vague prompts and let the model infer intent",
+      "B": "Use the PRECISE framework with explicit schema definitions and validation",
+      "C": "Always use zero-shot prompting for consistency",
+      "D": "Ignore output validation and trust the model completely"
+    },
+    "correctAnswer": "B",
+    "explanation": "The PRECISE framework and structured output with validation are core CCA-F concepts. Few-shot examples improve reliability when formatted consistently."
+  },
+  {
+    "id": "focused_s03_q17",
+    "mode": "focused",
+    "set_number": 3,
+    "question_number": 17,
+    "domain": "prompting",
+    "domainName": "Prompt Engineering & Structured Output",
+    "difficulty": "hard",
+    "question": "A data scientist at Razorpay needs structured JSON output from Claude for transaction categorization. What is the recommended approach?",
+    "options": {
+      "A": "Use natural language without any structure",
+      "B": "Provide few-shot examples with consistent formatting and explicit output schemas",
+      "C": "Change prompt style for every request",
+      "D": "Avoid giving examples to prevent bias"
+    },
+    "correctAnswer": "B",
+    "explanation": "The PRECISE framework and structured output with validation are core CCA-F concepts. Few-shot examples improve reliability when formatted consistently."
+  },
+  {
+    "id": "focused_s03_q18",
+    "mode": "focused",
+    "set_number": 3,
+    "question_number": 18,
+    "domain": "prompting",
+    "domainName": "Prompt Engineering & Structured Output",
+    "difficulty": "easy",
+    "question": "Swiggy's content team uses few-shot prompting to generate consistent restaurant descriptions. What is the recommended approach?",
+    "options": {
+      "A": "Write vague prompts and let the model infer intent",
+      "B": "Use the PRECISE framework with explicit schema definitions and validation",
+      "C": "Always use zero-shot prompting for consistency",
+      "D": "Ignore output validation and trust the model completely"
+    },
+    "correctAnswer": "B",
+    "explanation": "The PRECISE framework and structured output with validation are core CCA-F concepts. Few-shot examples improve reliability when formatted consistently."
+  },
+  {
+    "id": "focused_s03_q19",
+    "mode": "focused",
+    "set_number": 3,
+    "question_number": 19,
+    "domain": "prompting",
+    "domainName": "Prompt Engineering & Structured Output",
+    "difficulty": "medium",
+    "question": "CRED's marketing team applies the PRECISE framework for personalized credit card offer generation. What is the recommended approach?",
+    "options": {
+      "A": "Use natural language without any structure",
+      "B": "Provide few-shot examples with consistent formatting and explicit output schemas",
+      "C": "Change prompt style for every request",
+      "D": "Avoid giving examples to prevent bias"
+    },
+    "correctAnswer": "B",
+    "explanation": "The PRECISE framework and structured output with validation are core CCA-F concepts. Few-shot examples improve reliability when formatted consistently."
+  },
+  {
+    "id": "focused_s03_q20",
+    "mode": "focused",
+    "set_number": 3,
+    "question_number": 20,
+    "domain": "prompting",
+    "domainName": "Prompt Engineering & Structured Output",
+    "difficulty": "hard",
+    "question": "Sarvam AI engineers design prompts for multi-lingual sentiment analysis across 10 Indian languages. What is the recommended approach?",
+    "options": {
+      "A": "Write vague prompts and let the model infer intent",
+      "B": "Use the PRECISE framework with explicit schema definitions and validation",
+      "C": "Always use zero-shot prompting for consistency",
+      "D": "Ignore output validation and trust the model completely"
+    },
+    "correctAnswer": "B",
+    "explanation": "The PRECISE framework and structured output with validation are core CCA-F concepts. Few-shot examples improve reliability when formatted consistently."
+  }
+]

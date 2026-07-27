@@ -1,0 +1,362 @@
+[
+  {
+    "id": "focused_s09_q01",
+    "mode": "focused",
+    "set_number": 9,
+    "question_number": 1,
+    "domain": "tools_mcp",
+    "domainName": "Tool Design & MCP Integration",
+    "difficulty": "medium",
+    "question": "Razorpay builds an MCP server to expose their payment API as tools for Claude agents. What is the recommended approach?",
+    "options": {
+      "A": "Implement tools as stateful operations without documentation",
+      "B": "Make tools idempotent with clear error messages and retry logic",
+      "C": "Avoid error handling to reduce complexity",
+      "D": "Use non-standard transport protocols"
+    },
+    "correctAnswer": "B",
+    "explanation": "MCP tools require strict schemas, input validation, and clear error handling. Idempotency ensures safe retries in production environments."
+  },
+  {
+    "id": "focused_s09_q02",
+    "mode": "focused",
+    "set_number": 9,
+    "question_number": 2,
+    "domain": "tools_mcp",
+    "domainName": "Tool Design & MCP Integration",
+    "difficulty": "hard",
+    "question": "Swiggy's team designs MCP tools for real-time restaurant inventory and menu management. What is the recommended approach?",
+    "options": {
+      "A": "Allow tools to execute arbitrary code without validation",
+      "B": "Design strict JSON schemas with input validation and descriptive metadata",
+      "C": "Hide tool errors from the model to simplify output",
+      "D": "Use plain text instead of structured schemas"
+    },
+    "correctAnswer": "B",
+    "explanation": "MCP tools require strict schemas, input validation, and clear error handling. Idempotency ensures safe retries in production environments."
+  },
+  {
+    "id": "focused_s09_q03",
+    "mode": "focused",
+    "set_number": 9,
+    "question_number": 3,
+    "domain": "tools_mcp",
+    "domainName": "Tool Design & MCP Integration",
+    "difficulty": "easy",
+    "question": "CRED integrates MCP with their credit score API for personalized financial advice. What is the recommended approach?",
+    "options": {
+      "A": "Implement tools as stateful operations without documentation",
+      "B": "Make tools idempotent with clear error messages and retry logic",
+      "C": "Avoid error handling to reduce complexity",
+      "D": "Use non-standard transport protocols"
+    },
+    "correctAnswer": "B",
+    "explanation": "MCP tools require strict schemas, input validation, and clear error handling. Idempotency ensures safe retries in production environments."
+  },
+  {
+    "id": "focused_s09_q04",
+    "mode": "focused",
+    "set_number": 9,
+    "question_number": 4,
+    "domain": "tools_mcp",
+    "domainName": "Tool Design & MCP Integration",
+    "difficulty": "medium",
+    "question": "Sarvam AI creates MCP servers for their Astra API to enable Indic language capabilities. What is the recommended approach?",
+    "options": {
+      "A": "Allow tools to execute arbitrary code without validation",
+      "B": "Design strict JSON schemas with input validation and descriptive metadata",
+      "C": "Hide tool errors from the model to simplify output",
+      "D": "Use plain text instead of structured schemas"
+    },
+    "correctAnswer": "B",
+    "explanation": "MCP tools require strict schemas, input validation, and clear error handling. Idempotency ensures safe retries in production environments."
+  },
+  {
+    "id": "focused_s09_q05",
+    "mode": "focused",
+    "set_number": 9,
+    "question_number": 5,
+    "domain": "tools_mcp",
+    "domainName": "Tool Design & MCP Integration",
+    "difficulty": "hard",
+    "question": "Air India develops MCP tools for flight status, booking, and check-in operations. What is the recommended approach?",
+    "options": {
+      "A": "Implement tools as stateful operations without documentation",
+      "B": "Make tools idempotent with clear error messages and retry logic",
+      "C": "Avoid error handling to reduce complexity",
+      "D": "Use non-standard transport protocols"
+    },
+    "correctAnswer": "B",
+    "explanation": "MCP tools require strict schemas, input validation, and clear error handling. Idempotency ensures safe retries in production environments."
+  },
+  {
+    "id": "focused_s09_q06",
+    "mode": "focused",
+    "set_number": 9,
+    "question_number": 6,
+    "domain": "tools_mcp",
+    "domainName": "Tool Design & MCP Integration",
+    "difficulty": "easy",
+    "question": "Zerodha builds MCP tools for market data retrieval and order placement. What is the recommended approach?",
+    "options": {
+      "A": "Allow tools to execute arbitrary code without validation",
+      "B": "Design strict JSON schemas with input validation and descriptive metadata",
+      "C": "Hide tool errors from the model to simplify output",
+      "D": "Use plain text instead of structured schemas"
+    },
+    "correctAnswer": "B",
+    "explanation": "MCP tools require strict schemas, input validation, and clear error handling. Idempotency ensures safe retries in production environments."
+  },
+  {
+    "id": "focused_s09_q07",
+    "mode": "focused",
+    "set_number": 9,
+    "question_number": 7,
+    "domain": "tools_mcp",
+    "domainName": "Tool Design & MCP Integration",
+    "difficulty": "medium",
+    "question": "HCLTech standardizes MCP tool schemas across their enterprise client portfolio. What is the recommended approach?",
+    "options": {
+      "A": "Implement tools as stateful operations without documentation",
+      "B": "Make tools idempotent with clear error messages and retry logic",
+      "C": "Avoid error handling to reduce complexity",
+      "D": "Use non-standard transport protocols"
+    },
+    "correctAnswer": "B",
+    "explanation": "MCP tools require strict schemas, input validation, and clear error handling. Idempotency ensures safe retries in production environments."
+  },
+  {
+    "id": "focused_s09_q08",
+    "mode": "focused",
+    "set_number": 9,
+    "question_number": 8,
+    "domain": "tools_mcp",
+    "domainName": "Tool Design & MCP Integration",
+    "difficulty": "hard",
+    "question": "Ola's team implements MCP error handling for their mapping and routing services. What is the recommended approach?",
+    "options": {
+      "A": "Allow tools to execute arbitrary code without validation",
+      "B": "Design strict JSON schemas with input validation and descriptive metadata",
+      "C": "Hide tool errors from the model to simplify output",
+      "D": "Use plain text instead of structured schemas"
+    },
+    "correctAnswer": "B",
+    "explanation": "MCP tools require strict schemas, input validation, and clear error handling. Idempotency ensures safe retries in production environments."
+  },
+  {
+    "id": "focused_s09_q09",
+    "mode": "focused",
+    "set_number": 9,
+    "question_number": 9,
+    "domain": "tools_mcp",
+    "domainName": "Tool Design & MCP Integration",
+    "difficulty": "easy",
+    "question": "Digital Green creates MCP tools for weather API integration and crop recommendation. What is the recommended approach?",
+    "options": {
+      "A": "Implement tools as stateful operations without documentation",
+      "B": "Make tools idempotent with clear error messages and retry logic",
+      "C": "Avoid error handling to reduce complexity",
+      "D": "Use non-standard transport protocols"
+    },
+    "correctAnswer": "B",
+    "explanation": "MCP tools require strict schemas, input validation, and clear error handling. Idempotency ensures safe retries in production environments."
+  },
+  {
+    "id": "focused_s09_q10",
+    "mode": "focused",
+    "set_number": 9,
+    "question_number": 10,
+    "domain": "tools_mcp",
+    "domainName": "Tool Design & MCP Integration",
+    "difficulty": "medium",
+    "question": "Pratham designs MCP tools for student progress tracking and content recommendation. What is the recommended approach?",
+    "options": {
+      "A": "Allow tools to execute arbitrary code without validation",
+      "B": "Design strict JSON schemas with input validation and descriptive metadata",
+      "C": "Hide tool errors from the model to simplify output",
+      "D": "Use plain text instead of structured schemas"
+    },
+    "correctAnswer": "B",
+    "explanation": "MCP tools require strict schemas, input validation, and clear error handling. Idempotency ensures safe retries in production environments."
+  },
+  {
+    "id": "focused_s09_q11",
+    "mode": "focused",
+    "set_number": 9,
+    "question_number": 11,
+    "domain": "tools_mcp",
+    "domainName": "Tool Design & MCP Integration",
+    "difficulty": "hard",
+    "question": "Razorpay builds an MCP server to expose their payment API as tools for Claude agents. What is the recommended approach?",
+    "options": {
+      "A": "Implement tools as stateful operations without documentation",
+      "B": "Make tools idempotent with clear error messages and retry logic",
+      "C": "Avoid error handling to reduce complexity",
+      "D": "Use non-standard transport protocols"
+    },
+    "correctAnswer": "B",
+    "explanation": "MCP tools require strict schemas, input validation, and clear error handling. Idempotency ensures safe retries in production environments."
+  },
+  {
+    "id": "focused_s09_q12",
+    "mode": "focused",
+    "set_number": 9,
+    "question_number": 12,
+    "domain": "tools_mcp",
+    "domainName": "Tool Design & MCP Integration",
+    "difficulty": "easy",
+    "question": "Swiggy's team designs MCP tools for real-time restaurant inventory and menu management. What is the recommended approach?",
+    "options": {
+      "A": "Allow tools to execute arbitrary code without validation",
+      "B": "Design strict JSON schemas with input validation and descriptive metadata",
+      "C": "Hide tool errors from the model to simplify output",
+      "D": "Use plain text instead of structured schemas"
+    },
+    "correctAnswer": "B",
+    "explanation": "MCP tools require strict schemas, input validation, and clear error handling. Idempotency ensures safe retries in production environments."
+  },
+  {
+    "id": "focused_s09_q13",
+    "mode": "focused",
+    "set_number": 9,
+    "question_number": 13,
+    "domain": "tools_mcp",
+    "domainName": "Tool Design & MCP Integration",
+    "difficulty": "medium",
+    "question": "CRED integrates MCP with their credit score API for personalized financial advice. What is the recommended approach?",
+    "options": {
+      "A": "Implement tools as stateful operations without documentation",
+      "B": "Make tools idempotent with clear error messages and retry logic",
+      "C": "Avoid error handling to reduce complexity",
+      "D": "Use non-standard transport protocols"
+    },
+    "correctAnswer": "B",
+    "explanation": "MCP tools require strict schemas, input validation, and clear error handling. Idempotency ensures safe retries in production environments."
+  },
+  {
+    "id": "focused_s09_q14",
+    "mode": "focused",
+    "set_number": 9,
+    "question_number": 14,
+    "domain": "tools_mcp",
+    "domainName": "Tool Design & MCP Integration",
+    "difficulty": "hard",
+    "question": "Sarvam AI creates MCP servers for their Astra API to enable Indic language capabilities. What is the recommended approach?",
+    "options": {
+      "A": "Allow tools to execute arbitrary code without validation",
+      "B": "Design strict JSON schemas with input validation and descriptive metadata",
+      "C": "Hide tool errors from the model to simplify output",
+      "D": "Use plain text instead of structured schemas"
+    },
+    "correctAnswer": "B",
+    "explanation": "MCP tools require strict schemas, input validation, and clear error handling. Idempotency ensures safe retries in production environments."
+  },
+  {
+    "id": "focused_s09_q15",
+    "mode": "focused",
+    "set_number": 9,
+    "question_number": 15,
+    "domain": "tools_mcp",
+    "domainName": "Tool Design & MCP Integration",
+    "difficulty": "easy",
+    "question": "Air India develops MCP tools for flight status, booking, and check-in operations. What is the recommended approach?",
+    "options": {
+      "A": "Implement tools as stateful operations without documentation",
+      "B": "Make tools idempotent with clear error messages and retry logic",
+      "C": "Avoid error handling to reduce complexity",
+      "D": "Use non-standard transport protocols"
+    },
+    "correctAnswer": "B",
+    "explanation": "MCP tools require strict schemas, input validation, and clear error handling. Idempotency ensures safe retries in production environments."
+  },
+  {
+    "id": "focused_s09_q16",
+    "mode": "focused",
+    "set_number": 9,
+    "question_number": 16,
+    "domain": "tools_mcp",
+    "domainName": "Tool Design & MCP Integration",
+    "difficulty": "medium",
+    "question": "Zerodha builds MCP tools for market data retrieval and order placement. What is the recommended approach?",
+    "options": {
+      "A": "Allow tools to execute arbitrary code without validation",
+      "B": "Design strict JSON schemas with input validation and descriptive metadata",
+      "C": "Hide tool errors from the model to simplify output",
+      "D": "Use plain text instead of structured schemas"
+    },
+    "correctAnswer": "B",
+    "explanation": "MCP tools require strict schemas, input validation, and clear error handling. Idempotency ensures safe retries in production environments."
+  },
+  {
+    "id": "focused_s09_q17",
+    "mode": "focused",
+    "set_number": 9,
+    "question_number": 17,
+    "domain": "tools_mcp",
+    "domainName": "Tool Design & MCP Integration",
+    "difficulty": "hard",
+    "question": "HCLTech standardizes MCP tool schemas across their enterprise client portfolio. What is the recommended approach?",
+    "options": {
+      "A": "Implement tools as stateful operations without documentation",
+      "B": "Make tools idempotent with clear error messages and retry logic",
+      "C": "Avoid error handling to reduce complexity",
+      "D": "Use non-standard transport protocols"
+    },
+    "correctAnswer": "B",
+    "explanation": "MCP tools require strict schemas, input validation, and clear error handling. Idempotency ensures safe retries in production environments."
+  },
+  {
+    "id": "focused_s09_q18",
+    "mode": "focused",
+    "set_number": 9,
+    "question_number": 18,
+    "domain": "tools_mcp",
+    "domainName": "Tool Design & MCP Integration",
+    "difficulty": "easy",
+    "question": "Ola's team implements MCP error handling for their mapping and routing services. What is the recommended approach?",
+    "options": {
+      "A": "Allow tools to execute arbitrary code without validation",
+      "B": "Design strict JSON schemas with input validation and descriptive metadata",
+      "C": "Hide tool errors from the model to simplify output",
+      "D": "Use plain text instead of structured schemas"
+    },
+    "correctAnswer": "B",
+    "explanation": "MCP tools require strict schemas, input validation, and clear error handling. Idempotency ensures safe retries in production environments."
+  },
+  {
+    "id": "focused_s09_q19",
+    "mode": "focused",
+    "set_number": 9,
+    "question_number": 19,
+    "domain": "tools_mcp",
+    "domainName": "Tool Design & MCP Integration",
+    "difficulty": "medium",
+    "question": "Digital Green creates MCP tools for weather API integration and crop recommendation. What is the recommended approach?",
+    "options": {
+      "A": "Implement tools as stateful operations without documentation",
+      "B": "Make tools idempotent with clear error messages and retry logic",
+      "C": "Avoid error handling to reduce complexity",
+      "D": "Use non-standard transport protocols"
+    },
+    "correctAnswer": "B",
+    "explanation": "MCP tools require strict schemas, input validation, and clear error handling. Idempotency ensures safe retries in production environments."
+  },
+  {
+    "id": "focused_s09_q20",
+    "mode": "focused",
+    "set_number": 9,
+    "question_number": 20,
+    "domain": "tools_mcp",
+    "domainName": "Tool Design & MCP Integration",
+    "difficulty": "hard",
+    "question": "Pratham designs MCP tools for student progress tracking and content recommendation. What is the recommended approach?",
+    "options": {
+      "A": "Allow tools to execute arbitrary code without validation",
+      "B": "Design strict JSON schemas with input validation and descriptive metadata",
+      "C": "Hide tool errors from the model to simplify output",
+      "D": "Use plain text instead of structured schemas"
+    },
+    "correctAnswer": "B",
+    "explanation": "MCP tools require strict schemas, input validation, and clear error handling. Idempotency ensures safe retries in production environments."
+  }
+]

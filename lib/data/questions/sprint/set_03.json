@@ -1,0 +1,182 @@
+[
+  {
+    "id": "sprint_s03_q01",
+    "mode": "sprint",
+    "set_number": 3,
+    "question_number": 1,
+    "domain": "agentic",
+    "domainName": "Agentic Architecture & Orchestration",
+    "difficulty": "medium",
+    "question": "Air India's customer support uses a hierarchy of agents for flight rebooking during weather disruptions. What is the recommended approach?",
+    "options": {
+      "A": "Allow agents to modify each other's state directly",
+      "B": "Implement message passing with defined schemas and idempotent operations",
+      "C": "Use global variables for inter-agent communication",
+      "D": "Avoid any form of inter-agent communication"
+    },
+    "correctAnswer": "B",
+    "explanation": "Multi-agent systems require orchestration, shared state management, and defined communication patterns. Option B provides the production-ready approach with proper coordination."
+  },
+  {
+    "id": "sprint_s03_q02",
+    "mode": "sprint",
+    "set_number": 3,
+    "question_number": 2,
+    "domain": "agentic",
+    "domainName": "Agentic Architecture & Orchestration",
+    "difficulty": "hard",
+    "question": "HCLTech is implementing an agentic architecture for automated code review across 50+ client projects. What is the recommended approach?",
+    "options": {
+      "A": "Use a single monolithic agent with all capabilities",
+      "B": "Deploy specialized agents with a supervisor orchestrator and shared state",
+      "C": "Run agents independently without coordination",
+      "D": "Use hardcoded decision trees instead of agents"
+    },
+    "correctAnswer": "B",
+    "explanation": "Multi-agent systems require orchestration, shared state management, and defined communication patterns. Option B provides the production-ready approach with proper coordination."
+  },
+  {
+    "id": "sprint_s03_q03",
+    "mode": "sprint",
+    "set_number": 3,
+    "question_number": 3,
+    "domain": "agentic",
+    "domainName": "Agentic Architecture & Orchestration",
+    "difficulty": "easy",
+    "question": "Digital Green's agriculture AI uses coordinated agents to provide farming advice in 12 Indian languages. What is the recommended approach?",
+    "options": {
+      "A": "Allow agents to modify each other's state directly",
+      "B": "Implement message passing with defined schemas and idempotent operations",
+      "C": "Use global variables for inter-agent communication",
+      "D": "Avoid any form of inter-agent communication"
+    },
+    "correctAnswer": "B",
+    "explanation": "Multi-agent systems require orchestration, shared state management, and defined communication patterns. Option B provides the production-ready approach with proper coordination."
+  },
+  {
+    "id": "sprint_s03_q04",
+    "mode": "sprint",
+    "set_number": 3,
+    "question_number": 4,
+    "domain": "claude_code",
+    "domainName": "Claude Code Configuration & Workflows",
+    "difficulty": "medium",
+    "question": "Digital Green's team uses Claude Code for batch processing of agricultural data pipelines. What is the recommended approach?",
+    "options": {
+      "A": "Run Claude Code directly on production servers",
+      "B": "Configure CLAUDE.md with project conventions and use plan mode for complex changes",
+      "C": "Disable all safety checks for faster execution",
+      "D": "Use Claude Code only for documentation, never for code changes"
+    },
+    "correctAnswer": "B",
+    "explanation": "CLAUDE.md and plan mode are designed for safe, structured development. Environment variables and skills ensure consistency and security across team workflows."
+  },
+  {
+    "id": "sprint_s03_q05",
+    "mode": "sprint",
+    "set_number": 3,
+    "question_number": 5,
+    "domain": "claude_code",
+    "domainName": "Claude Code Configuration & Workflows",
+    "difficulty": "hard",
+    "question": "Ola's mapping team integrates Claude Code with their Python geospatial analysis workflows. What is the recommended approach?",
+    "options": {
+      "A": "Store API keys in the repository for convenience",
+      "B": "Use environment variables and skills to manage secrets and standardize workflows",
+      "C": "Hardcode configuration values in source files",
+      "D": "Avoid version control for Claude Code configurations"
+    },
+    "correctAnswer": "B",
+    "explanation": "CLAUDE.md and plan mode are designed for safe, structured development. Environment variables and skills ensure consistency and security across team workflows."
+  },
+  {
+    "id": "sprint_s03_q06",
+    "mode": "sprint",
+    "set_number": 3,
+    "question_number": 6,
+    "domain": "prompting",
+    "domainName": "Prompt Engineering & Structured Output",
+    "difficulty": "easy",
+    "question": "Pratham's assessment team designs prompts that generate age-appropriate math problems. What is the recommended approach?",
+    "options": {
+      "A": "Write vague prompts and let the model infer intent",
+      "B": "Use the PRECISE framework with explicit schema definitions and validation",
+      "C": "Always use zero-shot prompting for consistency",
+      "D": "Ignore output validation and trust the model completely"
+    },
+    "correctAnswer": "B",
+    "explanation": "The PRECISE framework and structured output with validation are core CCA-F concepts. Few-shot examples improve reliability when formatted consistently."
+  },
+  {
+    "id": "sprint_s03_q07",
+    "mode": "sprint",
+    "set_number": 3,
+    "question_number": 7,
+    "domain": "prompting",
+    "domainName": "Prompt Engineering & Structured Output",
+    "difficulty": "medium",
+    "question": "A data scientist at Razorpay needs structured JSON output from Claude for transaction categorization. What is the recommended approach?",
+    "options": {
+      "A": "Use natural language without any structure",
+      "B": "Provide few-shot examples with consistent formatting and explicit output schemas",
+      "C": "Change prompt style for every request",
+      "D": "Avoid giving examples to prevent bias"
+    },
+    "correctAnswer": "B",
+    "explanation": "The PRECISE framework and structured output with validation are core CCA-F concepts. Few-shot examples improve reliability when formatted consistently."
+  },
+  {
+    "id": "sprint_s03_q08",
+    "mode": "sprint",
+    "set_number": 3,
+    "question_number": 8,
+    "domain": "tools_mcp",
+    "domainName": "Tool Design & MCP Integration",
+    "difficulty": "hard",
+    "question": "Swiggy's team designs MCP tools for real-time restaurant inventory and menu management. What is the recommended approach?",
+    "options": {
+      "A": "Allow tools to execute arbitrary code without validation",
+      "B": "Design strict JSON schemas with input validation and descriptive metadata",
+      "C": "Hide tool errors from the model to simplify output",
+      "D": "Use plain text instead of structured schemas"
+    },
+    "correctAnswer": "B",
+    "explanation": "MCP tools require strict schemas, input validation, and clear error handling. Idempotency ensures safe retries in production environments."
+  },
+  {
+    "id": "sprint_s03_q09",
+    "mode": "sprint",
+    "set_number": 3,
+    "question_number": 9,
+    "domain": "tools_mcp",
+    "domainName": "Tool Design & MCP Integration",
+    "difficulty": "easy",
+    "question": "CRED integrates MCP with their credit score API for personalized financial advice. What is the recommended approach?",
+    "options": {
+      "A": "Implement tools as stateful operations without documentation",
+      "B": "Make tools idempotent with clear error messages and retry logic",
+      "C": "Avoid error handling to reduce complexity",
+      "D": "Use non-standard transport protocols"
+    },
+    "correctAnswer": "B",
+    "explanation": "MCP tools require strict schemas, input validation, and clear error handling. Idempotency ensures safe retries in production environments."
+  },
+  {
+    "id": "sprint_s03_q10",
+    "mode": "sprint",
+    "set_number": 3,
+    "question_number": 10,
+    "domain": "context",
+    "domainName": "Context Management & Reliability",
+    "difficulty": "medium",
+    "question": "Sarvam AI implements progressive summarization for long-form Indic document processing. What is the recommended approach?",
+    "options": {
+      "A": "Send the entire conversation history with every request",
+      "B": "Use progressive summarization and semantic chunking with relevance scoring",
+      "C": "Discard all context after each turn",
+      "D": "Store context in client-side cookies"
+    },
+    "correctAnswer": "B",
+    "explanation": "Efficient context management uses summarization and chunking rather than brute-force history. Backoff and circuit breakers are essential for resilient systems."
+  }
+]

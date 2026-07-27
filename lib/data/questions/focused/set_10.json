@@ -1,0 +1,362 @@
+[
+  {
+    "id": "focused_s10_q01",
+    "mode": "focused",
+    "set_number": 10,
+    "question_number": 1,
+    "domain": "context",
+    "domainName": "Context Management & Reliability",
+    "difficulty": "medium",
+    "question": "Swiggy's order history system uses RAG to provide personalized cuisine recommendations. What is the recommended approach?",
+    "options": {
+      "A": "Ignore rate limits and send requests as fast as possible",
+      "B": "Implement exponential backoff with jitter and circuit breaker patterns",
+      "C": "Use a single retry without delay",
+      "D": "Block all requests when one fails"
+    },
+    "correctAnswer": "B",
+    "explanation": "Efficient context management uses summarization and chunking rather than brute-force history. Backoff and circuit breakers are essential for resilient systems."
+  },
+  {
+    "id": "focused_s10_q02",
+    "mode": "focused",
+    "set_number": 10,
+    "question_number": 2,
+    "domain": "context",
+    "domainName": "Context Management & Reliability",
+    "difficulty": "hard",
+    "question": "CRED's transaction analysis requires chunking 5 years of user spending data for insights. What is the recommended approach?",
+    "options": {
+      "A": "Send the entire conversation history with every request",
+      "B": "Use progressive summarization and semantic chunking with relevance scoring",
+      "C": "Discard all context after each turn",
+      "D": "Store context in client-side cookies"
+    },
+    "correctAnswer": "B",
+    "explanation": "Efficient context management uses summarization and chunking rather than brute-force history. Backoff and circuit breakers are essential for resilient systems."
+  },
+  {
+    "id": "focused_s10_q03",
+    "mode": "focused",
+    "set_number": 10,
+    "question_number": 3,
+    "domain": "context",
+    "domainName": "Context Management & Reliability",
+    "difficulty": "easy",
+    "question": "Sarvam AI implements progressive summarization for long-form Indic document processing. What is the recommended approach?",
+    "options": {
+      "A": "Ignore rate limits and send requests as fast as possible",
+      "B": "Implement exponential backoff with jitter and circuit breaker patterns",
+      "C": "Use a single retry without delay",
+      "D": "Block all requests when one fails"
+    },
+    "correctAnswer": "B",
+    "explanation": "Efficient context management uses summarization and chunking rather than brute-force history. Backoff and circuit breakers are essential for resilient systems."
+  },
+  {
+    "id": "focused_s10_q04",
+    "mode": "focused",
+    "set_number": 10,
+    "question_number": 4,
+    "domain": "context",
+    "domainName": "Context Management & Reliability",
+    "difficulty": "medium",
+    "question": "Air India's reservation system caches frequent flyer preferences across 50M+ records. What is the recommended approach?",
+    "options": {
+      "A": "Send the entire conversation history with every request",
+      "B": "Use progressive summarization and semantic chunking with relevance scoring",
+      "C": "Discard all context after each turn",
+      "D": "Store context in client-side cookies"
+    },
+    "correctAnswer": "B",
+    "explanation": "Efficient context management uses summarization and chunking rather than brute-force history. Backoff and circuit breakers are essential for resilient systems."
+  },
+  {
+    "id": "focused_s10_q05",
+    "mode": "focused",
+    "set_number": 10,
+    "question_number": 5,
+    "domain": "context",
+    "domainName": "Context Management & Reliability",
+    "difficulty": "hard",
+    "question": "Zerodha's market data pipeline implements backoff strategies for exchange API rate limits. What is the recommended approach?",
+    "options": {
+      "A": "Ignore rate limits and send requests as fast as possible",
+      "B": "Implement exponential backoff with jitter and circuit breaker patterns",
+      "C": "Use a single retry without delay",
+      "D": "Block all requests when one fails"
+    },
+    "correctAnswer": "B",
+    "explanation": "Efficient context management uses summarization and chunking rather than brute-force history. Backoff and circuit breakers are essential for resilient systems."
+  },
+  {
+    "id": "focused_s10_q06",
+    "mode": "focused",
+    "set_number": 10,
+    "question_number": 6,
+    "domain": "context",
+    "domainName": "Context Management & Reliability",
+    "difficulty": "easy",
+    "question": "HCLTech deploys circuit breakers in their Claude-powered client support infrastructure. What is the recommended approach?",
+    "options": {
+      "A": "Send the entire conversation history with every request",
+      "B": "Use progressive summarization and semantic chunking with relevance scoring",
+      "C": "Discard all context after each turn",
+      "D": "Store context in client-side cookies"
+    },
+    "correctAnswer": "B",
+    "explanation": "Efficient context management uses summarization and chunking rather than brute-force history. Backoff and circuit breakers are essential for resilient systems."
+  },
+  {
+    "id": "focused_s10_q07",
+    "mode": "focused",
+    "set_number": 10,
+    "question_number": 7,
+    "domain": "context",
+    "domainName": "Context Management & Reliability",
+    "difficulty": "medium",
+    "question": "Ola's ride history uses semantic chunking for personalized route suggestions. What is the recommended approach?",
+    "options": {
+      "A": "Ignore rate limits and send requests as fast as possible",
+      "B": "Implement exponential backoff with jitter and circuit breaker patterns",
+      "C": "Use a single retry without delay",
+      "D": "Block all requests when one fails"
+    },
+    "correctAnswer": "B",
+    "explanation": "Efficient context management uses summarization and chunking rather than brute-force history. Backoff and circuit breakers are essential for resilient systems."
+  },
+  {
+    "id": "focused_s10_q08",
+    "mode": "focused",
+    "set_number": 10,
+    "question_number": 8,
+    "domain": "context",
+    "domainName": "Context Management & Reliability",
+    "difficulty": "hard",
+    "question": "Digital Green's knowledge base requires RAG optimization for low-bandwidth rural areas. What is the recommended approach?",
+    "options": {
+      "A": "Send the entire conversation history with every request",
+      "B": "Use progressive summarization and semantic chunking with relevance scoring",
+      "C": "Discard all context after each turn",
+      "D": "Store context in client-side cookies"
+    },
+    "correctAnswer": "B",
+    "explanation": "Efficient context management uses summarization and chunking rather than brute-force history. Backoff and circuit breakers are essential for resilient systems."
+  },
+  {
+    "id": "focused_s10_q09",
+    "mode": "focused",
+    "set_number": 10,
+    "question_number": 9,
+    "domain": "context",
+    "domainName": "Context Management & Reliability",
+    "difficulty": "easy",
+    "question": "Pratham's tutoring system caches student learning profiles for personalized lesson delivery. What is the recommended approach?",
+    "options": {
+      "A": "Ignore rate limits and send requests as fast as possible",
+      "B": "Implement exponential backoff with jitter and circuit breaker patterns",
+      "C": "Use a single retry without delay",
+      "D": "Block all requests when one fails"
+    },
+    "correctAnswer": "B",
+    "explanation": "Efficient context management uses summarization and chunking rather than brute-force history. Backoff and circuit breakers are essential for resilient systems."
+  },
+  {
+    "id": "focused_s10_q10",
+    "mode": "focused",
+    "set_number": 10,
+    "question_number": 10,
+    "domain": "context",
+    "domainName": "Context Management & Reliability",
+    "difficulty": "medium",
+    "question": "Razorpay's support system manages 200K+ daily conversations requiring efficient context summarization. What is the recommended approach?",
+    "options": {
+      "A": "Send the entire conversation history with every request",
+      "B": "Use progressive summarization and semantic chunking with relevance scoring",
+      "C": "Discard all context after each turn",
+      "D": "Store context in client-side cookies"
+    },
+    "correctAnswer": "B",
+    "explanation": "Efficient context management uses summarization and chunking rather than brute-force history. Backoff and circuit breakers are essential for resilient systems."
+  },
+  {
+    "id": "focused_s10_q11",
+    "mode": "focused",
+    "set_number": 10,
+    "question_number": 11,
+    "domain": "context",
+    "domainName": "Context Management & Reliability",
+    "difficulty": "hard",
+    "question": "Swiggy's order history system uses RAG to provide personalized cuisine recommendations. What is the recommended approach?",
+    "options": {
+      "A": "Ignore rate limits and send requests as fast as possible",
+      "B": "Implement exponential backoff with jitter and circuit breaker patterns",
+      "C": "Use a single retry without delay",
+      "D": "Block all requests when one fails"
+    },
+    "correctAnswer": "B",
+    "explanation": "Efficient context management uses summarization and chunking rather than brute-force history. Backoff and circuit breakers are essential for resilient systems."
+  },
+  {
+    "id": "focused_s10_q12",
+    "mode": "focused",
+    "set_number": 10,
+    "question_number": 12,
+    "domain": "context",
+    "domainName": "Context Management & Reliability",
+    "difficulty": "easy",
+    "question": "CRED's transaction analysis requires chunking 5 years of user spending data for insights. What is the recommended approach?",
+    "options": {
+      "A": "Send the entire conversation history with every request",
+      "B": "Use progressive summarization and semantic chunking with relevance scoring",
+      "C": "Discard all context after each turn",
+      "D": "Store context in client-side cookies"
+    },
+    "correctAnswer": "B",
+    "explanation": "Efficient context management uses summarization and chunking rather than brute-force history. Backoff and circuit breakers are essential for resilient systems."
+  },
+  {
+    "id": "focused_s10_q13",
+    "mode": "focused",
+    "set_number": 10,
+    "question_number": 13,
+    "domain": "context",
+    "domainName": "Context Management & Reliability",
+    "difficulty": "medium",
+    "question": "Sarvam AI implements progressive summarization for long-form Indic document processing. What is the recommended approach?",
+    "options": {
+      "A": "Ignore rate limits and send requests as fast as possible",
+      "B": "Implement exponential backoff with jitter and circuit breaker patterns",
+      "C": "Use a single retry without delay",
+      "D": "Block all requests when one fails"
+    },
+    "correctAnswer": "B",
+    "explanation": "Efficient context management uses summarization and chunking rather than brute-force history. Backoff and circuit breakers are essential for resilient systems."
+  },
+  {
+    "id": "focused_s10_q14",
+    "mode": "focused",
+    "set_number": 10,
+    "question_number": 14,
+    "domain": "context",
+    "domainName": "Context Management & Reliability",
+    "difficulty": "hard",
+    "question": "Air India's reservation system caches frequent flyer preferences across 50M+ records. What is the recommended approach?",
+    "options": {
+      "A": "Send the entire conversation history with every request",
+      "B": "Use progressive summarization and semantic chunking with relevance scoring",
+      "C": "Discard all context after each turn",
+      "D": "Store context in client-side cookies"
+    },
+    "correctAnswer": "B",
+    "explanation": "Efficient context management uses summarization and chunking rather than brute-force history. Backoff and circuit breakers are essential for resilient systems."
+  },
+  {
+    "id": "focused_s10_q15",
+    "mode": "focused",
+    "set_number": 10,
+    "question_number": 15,
+    "domain": "context",
+    "domainName": "Context Management & Reliability",
+    "difficulty": "easy",
+    "question": "Zerodha's market data pipeline implements backoff strategies for exchange API rate limits. What is the recommended approach?",
+    "options": {
+      "A": "Ignore rate limits and send requests as fast as possible",
+      "B": "Implement exponential backoff with jitter and circuit breaker patterns",
+      "C": "Use a single retry without delay",
+      "D": "Block all requests when one fails"
+    },
+    "correctAnswer": "B",
+    "explanation": "Efficient context management uses summarization and chunking rather than brute-force history. Backoff and circuit breakers are essential for resilient systems."
+  },
+  {
+    "id": "focused_s10_q16",
+    "mode": "focused",
+    "set_number": 10,
+    "question_number": 16,
+    "domain": "context",
+    "domainName": "Context Management & Reliability",
+    "difficulty": "medium",
+    "question": "HCLTech deploys circuit breakers in their Claude-powered client support infrastructure. What is the recommended approach?",
+    "options": {
+      "A": "Send the entire conversation history with every request",
+      "B": "Use progressive summarization and semantic chunking with relevance scoring",
+      "C": "Discard all context after each turn",
+      "D": "Store context in client-side cookies"
+    },
+    "correctAnswer": "B",
+    "explanation": "Efficient context management uses summarization and chunking rather than brute-force history. Backoff and circuit breakers are essential for resilient systems."
+  },
+  {
+    "id": "focused_s10_q17",
+    "mode": "focused",
+    "set_number": 10,
+    "question_number": 17,
+    "domain": "context",
+    "domainName": "Context Management & Reliability",
+    "difficulty": "hard",
+    "question": "Ola's ride history uses semantic chunking for personalized route suggestions. What is the recommended approach?",
+    "options": {
+      "A": "Ignore rate limits and send requests as fast as possible",
+      "B": "Implement exponential backoff with jitter and circuit breaker patterns",
+      "C": "Use a single retry without delay",
+      "D": "Block all requests when one fails"
+    },
+    "correctAnswer": "B",
+    "explanation": "Efficient context management uses summarization and chunking rather than brute-force history. Backoff and circuit breakers are essential for resilient systems."
+  },
+  {
+    "id": "focused_s10_q18",
+    "mode": "focused",
+    "set_number": 10,
+    "question_number": 18,
+    "domain": "context",
+    "domainName": "Context Management & Reliability",
+    "difficulty": "easy",
+    "question": "Digital Green's knowledge base requires RAG optimization for low-bandwidth rural areas. What is the recommended approach?",
+    "options": {
+      "A": "Send the entire conversation history with every request",
+      "B": "Use progressive summarization and semantic chunking with relevance scoring",
+      "C": "Discard all context after each turn",
+      "D": "Store context in client-side cookies"
+    },
+    "correctAnswer": "B",
+    "explanation": "Efficient context management uses summarization and chunking rather than brute-force history. Backoff and circuit breakers are essential for resilient systems."
+  },
+  {
+    "id": "focused_s10_q19",
+    "mode": "focused",
+    "set_number": 10,
+    "question_number": 19,
+    "domain": "context",
+    "domainName": "Context Management & Reliability",
+    "difficulty": "medium",
+    "question": "Pratham's tutoring system caches student learning profiles for personalized lesson delivery. What is the recommended approach?",
+    "options": {
+      "A": "Ignore rate limits and send requests as fast as possible",
+      "B": "Implement exponential backoff with jitter and circuit breaker patterns",
+      "C": "Use a single retry without delay",
+      "D": "Block all requests when one fails"
+    },
+    "correctAnswer": "B",
+    "explanation": "Efficient context management uses summarization and chunking rather than brute-force history. Backoff and circuit breakers are essential for resilient systems."
+  },
+  {
+    "id": "focused_s10_q20",
+    "mode": "focused",
+    "set_number": 10,
+    "question_number": 20,
+    "domain": "context",
+    "domainName": "Context Management & Reliability",
+    "difficulty": "hard",
+    "question": "Razorpay's support system manages 200K+ daily conversations requiring efficient context summarization. What is the recommended approach?",
+    "options": {
+      "A": "Send the entire conversation history with every request",
+      "B": "Use progressive summarization and semantic chunking with relevance scoring",
+      "C": "Discard all context after each turn",
+      "D": "Store context in client-side cookies"
+    },
+    "correctAnswer": "B",
+    "explanation": "Efficient context management uses summarization and chunking rather than brute-force history. Backoff and circuit breakers are essential for resilient systems."
+  }
+]
