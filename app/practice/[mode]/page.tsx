@@ -113,4 +113,12 @@ export default function TestModePage() {
       </div>
     </div>
   );
+  export function generateStaticParams() {
+  return [
+    { mode: 'sprint' },
+    { mode: 'focused' },
+    { mode: 'deep_practice' },
+    { mode: 'full_exam' },
+  ];
+}
 }
