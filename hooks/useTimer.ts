@@ -1,23 +1,22 @@
 'use client';
-import { useState, useEffect, useCallback } from 'react';
+import { useState, useEffect } from 'react';
 
-export function useTimer(initialSeconds: number, onExpire?: () => void) {
+export function useTimer(initialSeconds: number) {
   const [seconds, setSeconds] = useState(initialSeconds);
 
   useEffect(() => {
-    if (seconds <= 0) {
-      onExpire?.();
-      return;
-    }
-    const id = setInterval(() => setSeconds(s => s - 1), 1000);
-    return () => clearInterval(id);
-  }, [seconds, onExpire]);
+    setSeconds(initialSeconds);
+  }, [initialSeconds]);
 
-  const format = useCallback(() => {
-    const m = Math.floor(seconds / 60);
-    const s = seconds % 60;
-    return `${m.toString().padStart(2, '0')}:${s.toString().padStart(2, '0')}`;
+  useEffect(() => {
+    if (seconds <= 0) return;
+    const id = setInterval(() => setSeconds(s => Math.max(0, s - 1)), 1000);
+    return () => clearInterval(id);
   }, [seconds]);
 
-  return { seconds, formatted: format(), isExpired: seconds <= 0 };
+  const m = Math.floor(seconds / 60);
+  const s = seconds % 60;
+  const formatted = `${m.toString().padStart(2, '0')}:${s.toString().padStart(2, '0')}`;
+
+  return { seconds, formatted, isExpired: seconds <= 0 };
 }
