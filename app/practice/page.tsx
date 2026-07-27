@@ -38,7 +38,8 @@ export default function PracticePage() {
             )}
           </Card>
         ))}
+        
       </div>
     </div>
   );
-}
+ }
