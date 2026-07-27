@@ -1,8 +1,7 @@
 'use client';
 import { useParams, useRouter } from 'next/navigation';
 import { useEffect, useState } from 'react';
-import { startTest, submitAnswer, flagQuestion, finalizeTest, getTimeRemaining } from '@/lib/test';
-import { useTimer } from '@/hooks/useTimer';
+import { startTest, submitAnswer, flagQuestion, finalizeTest } from '@/lib/test';
 import { Button } from '@/components/ui/Button';
 import { Card } from '@/components/ui/Card';
 import { Flag, ChevronLeft, ChevronRight, Clock } from 'lucide-react';
@@ -17,26 +16,72 @@ export default function TestModePage() {
   const [error, setError] = useState<string | null>(null);
   const [selected, setSelected] = useState<string | null>(null);
   const [result, setResult] = useState<any>(null);
+  const [timeLeft, setTimeLeft] = useState(0);
 
-  const { formatted, isExpired } = useTimer(
-    session && session.sessionId ? getTimeRemaining(session.sessionId) : 0,
-    () => {
-      if (session && session.sessionId) handleSubmit();
-    }
-  );
-
+  // Load test
   useEffect(() => {
-    if (!mode) return;
+    if (!mode) {
+      setError('No test mode specified');
+      setLoading(false);
+      return;
+    }
+    let cancelled = false;
     startTest(mode as any)
       .then(s => {
-        setSession(s);
+        if (cancelled) return;
+        if (!s || !s.questions || s.questions.length === 0) {
+          setError('No questions found for this test set');
+        } else {
+          setSession(s);
+          setTimeLeft(s.timeLimitMinutes * 60);
+        }
         setLoading(false);
       })
       .catch(err => {
+        if (cancelled) return;
         setError(err?.message || 'Failed to load test questions');
         setLoading(false);
       });
+    return () => { cancelled = true; };
   }, [mode]);
+
+  // Timer countdown
+  useEffect(() => {
+    if (timeLeft <= 0) return;
+    const id = setInterval(() => {
+      setTimeLeft(t => {
+        if (t <= 1) {
+          setTimeout(() => {
+            try {
+              if (session && session.sessionId) {
+                const res = finalizeTest(session.sessionId);
+                setResult(res);
+              }
+            } catch (e) { console.error(e); }
+          }, 0);
+          return 0;
+        }
+        return t - 1;
+      });
+    }, 1000);
+    return () => clearInterval(id);
+  }, [timeLeft, session]);
+
+  const formattedTime = () => {
+    const m = Math.floor(timeLeft / 60);
+    const s = timeLeft % 60;
+    return `${m.toString().padStart(2, '0')}:${s.toString().padStart(2, '0')}`;
+  };
+
+  const handleSubmit = () => {
+    if (!session || !session.sessionId) return;
+    try {
+      const res = finalizeTest(session.sessionId);
+      setResult(res);
+    } catch (err: any) {
+      setError(err?.message || 'Failed to finalize test');
+    }
+  };
 
   if (loading) {
     return (
@@ -102,21 +147,12 @@ export default function TestModePage() {
     submitAnswer(session.sessionId, question.id, opt);
   };
 
-  const handleSubmit = () => {
-    try {
-      const res = finalizeTest(session.sessionId);
-      setResult(res);
-    } catch {
-      setError('Failed to finalize test. Please try again.');
-    }
-  };
-
   return (
     <div className="max-w-4xl mx-auto px-4 py-8 animate-fade-in">
       <div className="flex items-center justify-between mb-6">
         <div className="text-sm text-text-secondary">Question {currentIdx + 1} of {total}</div>
-        <div className={`flex items-center gap-2 text-sm font-mono ${isExpired ? 'text-red-400' : 'text-text-secondary'}`}>
-          <Clock size={16} /> {formatted}
+        <div className={`flex items-center gap-2 text-sm font-mono ${timeLeft <= 0 ? 'text-red-400' : 'text-text-secondary'}`}>
+          <Clock size={16} /> {formattedTime()}
         </div>
       </div>
       <div className="w-full bg-border h-2 rounded-full mb-8 overflow-hidden">
@@ -164,4 +200,3 @@ export default function TestModePage() {
     </div>
   );
 }
-
